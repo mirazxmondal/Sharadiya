@@ -1,7 +1,44 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Signika+Negative:wght@700&family=Ubuntu:wght@700&display=swap');
+
+:root{
+    --primary-font: 'Signika Negative', sans-serif;
+    --secondary-font: 'Josefin Sans', sans-serif;
+    --primary-color: #FBF2CF;
+}
+
 *, body, html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: var(--primary-color) !important; */
 }
 
 /* Nav */
+.hero{
+    
+    background-image: url("../images/b1.jpg") !important;
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav_design{
+    background-image: linear-gradient(to left, #fffefb93, #ffffff00);
+    position: fixed !important;
+    width: 100%;
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: larger !important;
+}
+
+.content{
+    max-width: max-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 40%;
+    left: 10%;
+}
