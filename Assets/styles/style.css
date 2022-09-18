@@ -97,3 +97,9 @@
     left: 45%;
     top: 170%;
 }
+
+/* Carousel cards */
+.carousel_cards{
+    border-radius: 10px !important;
+    color: black !important;
+}
