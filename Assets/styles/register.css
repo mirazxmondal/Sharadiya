@@ -62,3 +62,8 @@ p{
 form {
     background-color: white !important; 
 }
+
+.x{
+    margin-left: 860px;
+    position: sticky;
+}

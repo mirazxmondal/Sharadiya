@@ -1,2 +1,2 @@
-# Sharadiya-
+# Sharadiya
 Something exciting is coming!
