@@ -1,4 +1,4 @@
-function checkPassword(){
+function checkPassword() {
     let password = document.getElementById("password").value;
     let cpassword = document.getElementById("cpassword").value;
     console.log(" Password:", password,'\n',"Confirm Password:",cpassword);
@@ -12,9 +12,5 @@ function checkPassword(){
             message.textContent = " Passwords do not match!";
             message.style.color = "red";
         }
-    }
-    else{
-        alert("Password can't be empty!");
-        message.textContent = "";
     }
 }
