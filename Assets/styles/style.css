@@ -109,3 +109,13 @@
 /* form{
     all: none !important;
 } */
+
+/* About page */
+.hero1{
+
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
