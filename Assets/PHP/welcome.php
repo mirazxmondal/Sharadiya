@@ -7,7 +7,8 @@ require 'connect-session.php';
     <head>
         <style>
             body{
-
+                background: rgb(232,148,79);
+                background: linear-gradient(90deg, rgba(232,148,79,1) 0%, rgba(255,120,108,1) 100%, rgba(0,212,255,1) 100%);
                 text-align: center;
             }
         </style>
