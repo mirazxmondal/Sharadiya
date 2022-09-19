@@ -1,7 +1,7 @@
 <?php
 require 'connect-session.php';
-$a=$_GET['email'];
-$b=$_GET['password'];
+$a=$_GET['phpname'];
+$b=$_GET['phppassword'];
 $sql="select * from sharadiya where email='$a' and password='$b'";
 $ses=mysqli_query($conn,$sql); 
 $x=mysqli_fetch_array($ses);
@@ -14,6 +14,6 @@ if(mysqli_num_rows($ses)>0)
 }
 else
 {
-    header("location:login.html?msg=wrongemailorpassword");
+    header("location:../../index.html?msg=wrongemailorpassword");
 }
 ?>

@@ -1,6 +1,6 @@
 <?php
-require 'connect1.php';
-require 'session-check.php';
+require 'connect.php';
+require 'connect-session.php';
 
 ?>
 <html>

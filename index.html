@@ -9,7 +9,10 @@
     <link rel="shortcut icon" href="./Assets/images/favicon.png" type="image/x-icon" sizes="16x16 32x32">  
   </head>
   <body id="body">
+
+
     <!-- Modal -->
+    <form action="./Assets/PHP/login.php">
     <div
       class="modal fade"
       id="exampleModal"
@@ -32,11 +35,11 @@
             <form action="login.php" method="post" class="d-flex justify-content-center align-items-center flex-column">
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" name="phpname"> 
               </div>
               <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="phppassword"> 
               </div>
               <button type="submit" class="btn btn-danger">Login</button>
             </form>
@@ -45,6 +48,8 @@
         </div>
       </div>
     </div>
+   </form>
+
     <!-- ==Navbar=== -->
     <section class="header">
       <!-- Banner/Hero -->
@@ -87,8 +92,6 @@
                   >
                     Login
                   </button>
-
-                  <!-- Modal -->
                 </li>
               </ul>
             </div>

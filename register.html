@@ -33,10 +33,11 @@
 
         <label for="cpassword">Confirm Password:</label>
         <input type="password" id="cpassword" name="cpassword" placeholder="Confirm Password" required><br><br>
+        <p id="confirmmessage" style="font-size: 10px;"></p>
 
         <label for="address">Address:</label>
         <input type="text" id="address" name="address" placeholder="Address" required><br><br>
-        <input type="submit" value="REGISTER">
+        <input type="submit" value="REGISTER" onclick="checkPassword()">
       </form>
     </div>
 
