@@ -9,7 +9,7 @@ $url=".././Upload";
 $furl=$url.$pic;
 // know the file type
 $type=pathinfo($furl,PATHINFO_EXTENSION);
-if ($type=="jpeg" || $type=="jpg" || $type=="png")
+if ($type=="jpeg" || $type=="jpg" || $type=="png" || $type=="mp4" || $type=="mpeg")
 {
 // to place the pictures on server
 move_uploaded_file($_FILES['thumbnail']['tmp_name'],$furl);
