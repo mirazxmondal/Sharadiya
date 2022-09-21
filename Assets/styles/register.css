@@ -15,20 +15,20 @@
     background-color: var(--primary-color) !important;
 }
 
-label {
+label{
     background-color: white !important; 
     display: inline-block;
     width: 200px;
     font-weight: bold;
 }
 
-input {
+input{
     background-color: white !important; 
     padding: 5px 10px;
     border-radius: 15px;
 }
 
-input[type=submit], input[type=reset] {
+input[type=submit], input[type=reset]{
     background-color: #e1801f !important;
     width: 100px;
     border: none;
@@ -46,12 +46,19 @@ input[type=submit], input[type=reset] {
     width: 1000px;
 }
 
-.text-container, .images-container {
+.text-container, .images-container{
     background-color: white !important; 
     display: inline-block;
     padding: 1rem 1rem;
     vertical-align: middle;
 }
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 p{
     background-color: white !important; 
@@ -59,7 +66,7 @@ p{
     font-weight: bold;
 }
 
-form {
+form{
     background-color: white !important; 
 }
 
