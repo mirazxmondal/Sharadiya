@@ -55,18 +55,18 @@ require 'connect-session.php';
             </div>
           </div>
         </nav>
-
+        
           <!-- FORM -->
           <div class="center">
             <div class="form-main-container">
-              <form action="#" method="post" enctype="multipart/form-data" > 
+              <form action="./admin.php" method="post" enctype="multipart/form-data" > 
                 <p class="upload">Upload.</p>
 
                 <label for="name">Name of the Pandel:</label>
                 <input type="text" id="ptitle" name="ptitle" placeholder="Name of the Pandel" required><br><br>
         
-                <label for="name">Description:</label>
-                <input type="text" id="description" name="description" placeholder="Description" required><br><br>
+                <label for="name" class="dec">Description:</label>
+                <input type="text" id="description" name="description" placeholder="Description" style="height: 150px;" required><br><br>
         
                 <label for="name">Thumbnail:</label>
                 <input type="file" id="" name="thumbnail" required><br><br>
@@ -82,8 +82,18 @@ require 'connect-session.php';
             </div>
             </div>
 
+<script>
+    const submitBtn = document.getElementById('submit')
+    const submitBtnhovered = document.getElementById('submit').value;
 
-    <script src="../scripts/./main.js"></script>
+    submitBtn.onmouseover  = function () {
+        submitBtn.value = "CONFIRM UPLOAD"
+    }
+    submitBtn.onmouseout  = function() {
+        submitBtn.value = submitBtnhovered;
+    }
+</script>
+    <script src=".././scripts/./main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>

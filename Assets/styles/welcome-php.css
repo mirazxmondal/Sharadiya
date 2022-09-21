@@ -76,5 +76,12 @@ input[type=submit]:hover{
     margin-left: 200px;
 }
 
-
-
+.form-main-container1{
+    
+    border-radius: 10px;
+    background-color: white;
+    height: 630px;
+    width: 700px;
+    justify-content: center;
+    box-shadow: 10px 26px 32px 0px rgba(0,0,0,0.49);
+}

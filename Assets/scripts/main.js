@@ -19,12 +19,12 @@ explore.addEventListener("mouseleave", () => {
 
 
 // welcome.php-file-js
-const submitBtn = document.getElementById('submit')
-const submitBtnhovered = document.getElementById('submit').value;
+// const submitBtn = document.getElementById('submit')
+// const submitBtnhovered = document.getElementById('submit').value;
 
-submitBtn.onmouseover  = function () {
-    submitBtn.value = "CONFIRM UPLOAD"
-}
-submitBtn.onmouseout  = function() {
-    submitBtn.value = submitBtnhovered;
-}
+// submitBtn.onmouseover  = function () {
+//     submitBtn.value = "CONFIRM UPLOAD"
+// }
+// submitBtn.onmouseout  = function() {
+//     submitBtn.value = submitBtnhovered;
+// }
