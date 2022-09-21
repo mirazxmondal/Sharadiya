@@ -1,6 +1,10 @@
 DB
 settings.json
+
 # Admin-panel
+# URL of admin panel: http://localhost/ard/Sharadiya/Admin-panel/index.html
+# Admin id: admin@gmail.com
+# Admin password: admin
 
 # Inspiration 
 # https://dribbble.com/shots/3894493-Contact-form-submit-animation/attachments/10081713?mode=media

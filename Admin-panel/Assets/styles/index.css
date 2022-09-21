@@ -1,39 +1,41 @@
 body {
-    background-image: linear-gradient(to right, #2af598 0%, #009efd 100%);
+    background: rgb(232,148,79);
+    background: linear-gradient(90deg, rgba(232,148,79,1) 0%, rgba(255,120,108,1) 100%, rgba(0,212,255,1) 100%);
 }
 
-label {
+label{
     width: 180px;
     clear: left;
     text-align: right;
     padding-right: 10px;
 }
 
-input, label {
+input, label{
     float: left;
 }
 
-h1 {
+p{
     text-align: center;
-    text-decoration: underline;
+    font-size: 2rem;
 }
 
-.class-form {
+.class-form{
+    border-radius: 10px;
     margin: auto;
-    width: 50%;
+    width: 40%;
     border: 3px solid green;
     padding: 10px;
+    font-size: 1rem;
 }
 
-.class-submit {
-    background-color: rgb(207, 144, 28);
+.class-submit{
+    background-color: rgb(214, 46, 46);
     border: none;
+    border-radius: 8px;
     padding: 16px 120px;
     margin: 4px 2px;
     cursor: pointer;
+    color: white;
 }
 
-.anchor{
-    text-align: center;
-}
 

@@ -2,7 +2,7 @@
 require 'connect1.php';
 $c=$_GET['a1'];
 $d=$_GET['a2'];
-$sql="select * from login where email='$c' and pwd='$d'";
+$sql="select * from sharadiya where email='$c' and password='$d'";
 $a=mysqli_query($conn,$sql); 
 $x=mysqli_fetch_array($a);
 // Creating a session name and storing in x variable, session is global variable
@@ -14,6 +14,6 @@ if(mysqli_num_rows($a)>0)
 }
 else
 {
-    header("location:login.html?msg=wrongemailorpwd");
+    header("location:.././index.html?msg=wrongemailorpwd");
 }
 ?>
