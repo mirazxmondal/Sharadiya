@@ -1,20 +1,13 @@
-<?php
-require 'connect.php';
-require 'connect-session.php';
-    
-?>
-<!-- <h1><?php echo($_SESSION["FIEM"]["name"]); ?></h1> -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../styles/./welcome-php.css">
+    <link rel="stylesheet" href="./Assets/styles/welcome-php.css">
     <title>Sharadiya</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"/>
-    <link rel="shortcut icon" href="../images/./favicon.png" type="image/x-icon" sizes="16x16 32x32">  
+    <link rel="shortcut icon" href="../Sharadiya/Assets/images/favicon.png" type="image/x-icon" sizes="16x16 32x32">  
   </head>
   <body id="body">
 
@@ -56,28 +49,37 @@ require 'connect-session.php';
           </div>
         </nav>
           <!-- Header  -->
-          <span class="header center"> <a href="./welcome.php" id="aa">Upload content</a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href="../../services.html" id="aa">List Services</a></span>
+          <span class="header center"> <a href="../Sharadiya/Assets/PHP/welcome.php" id="aa">Upload content</a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href="../Sharadiya/services.html" id="aa">List Services</a></span>
 
           <!-- FORM -->
           <div class="center">
             
             <div class="form-main-container">
-              <form action="./admin.php" method="post" enctype="multipart/form-data"> 
-                <p class="upload">Upload.</p>
-
-                <label for="name">Name of the Pandel:</label>
-                <input type="text" id="ptitle" name="ptitle" placeholder="Name of the Pandel" required><br><br>
+              <form action="../Sharadiya/Assets/PHP/services.php"> 
+                <p class="upload">List Services.</p>
+    
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name" required><br><br>
         
-                <label for="name" class="dec">Description:</label>
-                <input type="text" id="description" name="description" placeholder="Description" style="height: 150px;" required><br><br>
+                <label for="number">Contact Number:</label>
+                <input type="text" id="number" name="number" placeholder="+91" pattern="[6-9]{1}[0-9]{9}" required><br><br>
         
-                <label for="name">Thumbnail:</label>
-                <input type="file" id="" name="thumbnail" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required><br><br>
 
-                <label for="name">Upload:</label>
-                <input type="file" id="file" name="media[]" multiple><br><br>
-
-                <div class="upl">
+                <div class="flex"> 
+                <label for="services">Services:</label>
+                <select class="form-select" aria-label="Default select example" id="sel" required>
+                    <option selected>Select Services</option>
+                    <option value="purohit" name="service">Purohit</option>
+                    <option value="murtikar" name="service">Murtikar</option>
+                    <option value="pandal-decorators" name="service">Pandal Decorators</option>
+                    <option value="dhakis" name="service">Dhakis</option>
+                    <option value="volunteer" name="service">Volunteer</option>
+                </select>
+                </div>
+                
+                <div class="upl1">
                 <input type="submit" value="UPLOAD" id="submit">
                 </div>
 
@@ -100,6 +102,4 @@ require 'connect-session.php';
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
-
-
 
