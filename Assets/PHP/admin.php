@@ -1,7 +1,7 @@
 <?php
 require 'admin-DB-connection.php';
-$a=$_POST['ptitle'];
-$b=$_POST['description'];
+$ptitle=$_POST['ptitle'];
+$description=$_POST['description'];
 // $c=$_POST['thumbnail']; 
 // to receive the photo or file $_FILES is used 
 $pic=$_FILES['thumbnail']['name'];
@@ -14,7 +14,7 @@ if ($type=="jpeg" || $type=="jpg" || $type=="png" || $type=="mp4" || $type=="mpe
 // to place the pictures on server
 move_uploaded_file($_FILES['thumbnail']['tmp_name'],$furl);
 
-$sql="insert into admin(ptitle,description,media) values('$a','$b','$furl')";
+$sql="insert into admin(ptitle,description,media) values('$ptitle','$description','$furl')";
 $x=mysqli_query($conn,$sql);
 
 if($x==1)

@@ -1,14 +1,14 @@
 <?php
 require 'connect.php';
-$a=$_GET['name'];
-$b=$_GET['number'];
-$c=$_GET['zip']; 
-$d=$_GET['email'];
-$e=$_GET['password'];
-$f=$_GET['cpassword'];
-$g=$_GET['address'];
+$name=$_GET['name'];
+$number=$_GET['number'];
+$zip=$_GET['zip']; 
+$email=$_GET['email'];
+$password=$_GET['password'];
+$cpassword=$_GET['cpassword'];
+$address=$_GET['address'];
 
-$sql="insert into sharadiya(name,number,zip,email,password,cpassword,address) values('$a','$b','$c','$d','$e','$f','$g')";
+$sql="insert into sharadiya(name,number,zip,email,password,cpassword,address) values('$name','$number','$zip','$email','$password','$cpassword','$address')";
 $x=mysqli_query($conn,$sql);
 
 if($x==1)
