@@ -5,8 +5,7 @@ require 'connect-session.php';
 ?>
 <!-- <h1><?php echo($_SESSION["FIEM"]["name"]); ?></h1> -->
 
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />

@@ -105,6 +105,11 @@ form{
     align-items: center;
 }
 
+
+a{
+    position: sticky;
+}
+
 /* .pmessage{
     background-color: white !important; 
     font-size: 2rem;

@@ -14,7 +14,7 @@
       <!-- Banner/Hero -->
         <nav class="navbar navbar-expand-lg nav_design">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Sharadiya</a>
+            <a class="navbar-brand" href="./index.html">Sharadiya</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -29,10 +29,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item mx-2">
-                  <a class="nav-link active" aria-current="page" href="../../index.html" target="_blank">Home</a>
+                  <a class="nav-link active" aria-current="page" href=".././Sharadiya/index.html" target="_blank">Home</a>
                 </li>
                 <li class="nav-item mx-2">
-                  <a class="nav-link" href="../../about.html" target="_blank">About</a>
+                  <a class="nav-link" href="../Sharadiya/./about.html" target="_blank">About</a>
                 </li>
                 <li class="nav-item mx-2">
                   <button
@@ -41,7 +41,7 @@
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
-                  <a href="../PHP/./logout.php" class="log" style="text-decoration: none; color: white">Log out</a>
+                  <a href="../Sharadiya/./Assets/PHP/logout.php" class="log" style="text-decoration: none; color: white">Log out</a>
                   </button>
                 </li>
               </ul>
@@ -57,7 +57,7 @@
             <div class="form-main-container">
               <form action="../Sharadiya/Assets/PHP/services.php"> 
                 <p class="upload">List Services.</p>
-    
+
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" placeholder="Name" required><br><br>
         
@@ -69,16 +69,19 @@
 
                 <div class="flex"> 
                 <label for="services">Services:</label>
-                <select class="form-select" aria-label="Default select example" id="sel" required>
+                <select class="form-select" aria-label="Default select example" id="sel" name="service" required>
                     <option selected>Select Services</option>
-                    <option value="purohit" name="service">Purohit</option>
-                    <option value="murtikar" name="service">Murtikar</option>
-                    <option value="pandal-decorators" name="service">Pandal Decorators</option>
-                    <option value="dhakis" name="service">Dhakis</option>
-                    <option value="volunteer" name="service">Volunteer</option>
+                    <option value="purohit">Purohit</option>
+                    <option value="murtikar">Murtikar</option>
+                    <option value="pandal-decorators">Pandal Decorators</option>
+                    <option value="dhakis">Dhakis</option>
+                    <option value="volunteer">Volunteer</option>
                 </select>
-                </div>
+                </div> <br>
                 
+                <label for="email">Date:</label>          
+                <input type="date" name="date">
+
                 <div class="upl1">
                 <input type="submit" value="UPLOAD" id="submit">
                 </div>

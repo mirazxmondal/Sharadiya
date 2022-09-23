@@ -1,4 +1,4 @@
-# DB
+DB
 settings.json
 
 # Admin-panel
@@ -12,5 +12,12 @@ settings.json
 
 
 # https://www.tutorialspoint.com/How-to-write-PHP-script-by-using-MySQL-JOINS-inside-it-to-join-two-MySQL-tables
-
 # https://www.codexworld.com/upload-multiple-images-store-in-database-php-mysql/
+
+
+# Dependency
+# 1) Session not working probably due to not storing everything in a SESSION variable in HTML page
+# 2) Path issues 
+
+# Feature to be added
+# 1)Email

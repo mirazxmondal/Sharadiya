@@ -4,8 +4,9 @@ $name=$_GET['name'];
 $number=$_GET['number'];
 $email=$_GET['email'];
 $service=$_GET['service'];
+$date=$_GET['date'];
 
-$sql="insert into service(name,number,email,service) values('$name','$number','$email','$service')";
+$sql="insert into service(name,number,email,service,date) values('$name','$number','$email','$service','$date')";
 $x=mysqli_query($conn,$sql);
 
 if($x==1)
