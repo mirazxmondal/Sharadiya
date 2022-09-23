@@ -59,10 +59,18 @@
 .content{
     width: 40%;
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
-    position: relative;
+    position: absolute;
     top: 40%;
     left: 10%;
+}
+.cta_btns{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
 }
 /* Feature */
 
