@@ -5,7 +5,7 @@ $description=$_POST['description'];
 // $c=$_POST['thumbnail']; 
 // to receive the photo or file $_FILES is used 
 $pic=$_FILES['thumbnail']['name'];
-$url=".././Upload";
+$url="../.././Upload/";
 $furl=$url.$pic;
 // know the file type
 $type=pathinfo($furl,PATHINFO_EXTENSION);

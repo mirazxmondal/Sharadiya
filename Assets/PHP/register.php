@@ -7,8 +7,13 @@ $email=$_GET['email'];
 $password=$_GET['password'];
 $cpassword=$_GET['cpassword'];
 $address=$_GET['address'];
+$message="Password and Confirm password should match!";
 
 $sql="insert into sharadiya(name,number,zip,email,password,cpassword,address) values('$name','$number','$zip','$email','$password','$cpassword','$address')";
+$data=$_GET;
+if ($data['password'] !== $data['cpassword']) {
+    die('Password and Confirm password should match!');
+ }
 $x=mysqli_query($conn,$sql);
 
 if($x==1)

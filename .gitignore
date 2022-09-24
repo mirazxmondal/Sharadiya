@@ -16,7 +16,7 @@ settings.json
 
 # Dependency
 # 1) Session not working probably due to not storing everything in a SESSION variable in HTML page
-# 2) Path issues 
 
 # Feature to be added
 # 1)Email
+# https://stackoverflow.com/questions/32001986/send-email-to-user-register-using-php
