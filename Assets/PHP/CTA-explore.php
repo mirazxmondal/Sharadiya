@@ -1,8 +1,3 @@
-<?php
-require 'connect.php';
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,6 +14,16 @@ require 'connect.php';
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <style>
+        #phpcenter{
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+            margin: auto;
+            width: 60%;
+            padding: 10px;
+        }
+    </style>
   </head>
   <body>
      <!-- Modal -->
@@ -111,23 +116,8 @@ require 'connect.php';
 
     <section id="pujas">
       <h1 class="text-center">Explore the culture in a new way!</h1> 
-      <div class="container d-flex justify-content-center align-items-center flex-column">
-        
-        <div class="card mb-3" style="max-width: 1000px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src=".././images/./footer1.jpg" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h3 class="card-title">Sreebhumi Sporting Club</h3>
-                <p class="card-text puja_info">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href=""><button class="btn btn-primary ">View</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
 
+      <!-- <div class="container d-flex justify-content-center align-items-center flex-column">
         <div class="card mb-3" style="max-width: 1000px;">
           <div class="row g-0">
             <div class="col-md-4">
@@ -142,23 +132,33 @@ require 'connect.php';
             </div>
           </div>
         </div>
+      </div> -->
 
-        <div class="card mb-3" style="max-width: 1000px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="../images/./about2.jpg" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h3 class="card-title">Sreebhumi Sporting Club</h3>
-                <p class="card-text puja_info">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href=""><button class="btn btn-primary ">View</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
+      <div id="phpcenter">
+        <?php
+        require 'connect.php';
+        $result = mysqli_query($conn,"SELECT * FROM admin");
+
+        echo "<table border='1' border-collapse: collapse;>
+        <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Media</th>
+        </tr>";
+        while($row = mysqli_fetch_array($result))
+        {
+        echo "<tr>";
+        echo "<td>" . $row['ptitle'] . "</td>";
+        echo "<td>" . $row['description'] . "</td>";
+        // echo '<img height="300" width="300"' . $rows['media'] . '>';
+        echo "<td><img height= '350px' width='350px' src='../Assets/../Upload/".$row['media']."'></td>";
+        echo "</tr>";
+        }
+        echo "</table>";
+        mysqli_close($conn);
+        ?>
       </div>
+
     </section>
 
     <script src="../scripts/./main.js"></script>

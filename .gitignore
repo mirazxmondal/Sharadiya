@@ -10,6 +10,7 @@ settings.json
 # https://dribbble.com/shots/3894493-Contact-form-submit-animation/attachments/10081713?mode=media
 
 # https://www.codexworld.com/upload-multiple-images-store-in-database-php-mysql/
+# https://www.etutorialspoint.com/index.php/203-how-to-upload-multiple-files-and-store-in-mysql-database-using-php
 
 # Dependency
 # 1) Session not working probably due to not storing everything in a SESSION variable in HTML page

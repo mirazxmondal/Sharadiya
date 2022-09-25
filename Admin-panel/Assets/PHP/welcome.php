@@ -1,41 +1,44 @@
 <?php
 require 'connect1.php';
 require 'session-check.php';
+$result = mysqli_query($conn,"SELECT * FROM admin");
 
-// $sql = 'SELECT a.tutorial_id, a.tutorial_author, b.tutorial_count
-// FROM tutorials_tbl a, tcount_tbl b
-// WHERE a.tutorial_author = b.tutorial_author';
-
-// mysql_select_db('TUTORIALS');
-// $retval = mysql_query( $sql, $conn );
-
-// if(! $retval ) {
-//    die('Could not get data: ' . mysql_error());
-// }
-
-// while($row = mysql_fetch_array($retval, MYSQL_ASSOC)) {
-//    echo "Author:{$row['tutorial_author']} <br> ".
-//       "Count: {$row['tutorial_count']} <br> ".
-//       "Tutorial ID: {$row['tutorial_id']} <br> ".
-//       "--------------------------------<br>";
-// }
-// echo "Fetched data successfully\n";
-// mysql_close($conn); 
-
+echo "<table border='1' border-collapse: collapse;>
+<tr>
+<th>Title</th>
+<th>Description</th>
+<th>Media</th>
+<th>Approval</th>
+</tr>";
+echo "<center>WELCOME ADMIN!</center>";
+while($row = mysqli_fetch_array($result))
+{
+echo "<tr>";
+echo "<td>" . $row['ptitle'] . "</td>";
+echo "<td>" . $row['description'] . "</td>";
+// echo '<img height="300" width="300"' . $rows['media'] . '>';
+echo "<td><img height= '350px' width='350px' src='../../../Upload".$row['media']."'></td>";
+echo "<td><img height='50px' width='50px' src='../../../Upload/right.png'></td>";
+echo "</tr>";
+}
+echo "</table>";
+mysqli_close($conn);
 ?>
 <html>
     <head>
         <link rel="stylesheet" href="../styles/./index.css"> 
     </head>
     <body>
-        <p>WELCOME ADMIN!</p>
-
-        <h1 style="display:inline;"><?php echo($_SESSION['FIEM']['name']);?></h1>
+        <!-- <h1 style="display:inline;"><?php echo($_SESSION['FIEM']['name']);?></h1>
         <h1 style="display:inline;"><?php echo($_SESSION['FIEM']['number']);?></h1><br>
-        <img src="<?php echo($_SESSION['FIEM']['furl']);?>" height="200px" width="200px"><br>
-        <h3><a href="./logout.php">Log out</a></h3> 
+        <img src="<?php echo($_SESSION['FIEM']['furl']);?>" height="200px" width="200px"><br> -->
+        <center>
+        <h2><a href="./logout.php">Log out</a></h2> 
+        </center>
     </body>
 </html>
+
+
 
 
 

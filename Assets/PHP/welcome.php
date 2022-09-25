@@ -69,12 +69,12 @@ require 'connect-session.php';
         
                 <label for="name" class="dec">Description:</label>
                 <input type="text" id="description" name="description" placeholder="Description" style="height: 150px;" required><br><br>
-        
                 <label for="name">Thumbnail:</label>
                 <input type="file" id="" name="thumbnail" required><br><br>
+                <p>(Upload 350px X 350px)</p>
 
                 <label for="name">Upload:</label>
-                <input type="file" id="file" name="media[]" multiple><br><br>
+                <input type="file" id="file" name="media1[]" multiple><br><br>
 
                 <div class="upl">
                 <input type="submit" value="UPLOAD" id="submit">
