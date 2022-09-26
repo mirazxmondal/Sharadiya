@@ -74,7 +74,7 @@ require 'connect-session.php';
                 <p>(Upload 350px X 350px)</p>
 
                 <label for="name">Upload:</label>
-                <input type="file" id="file" name="media1[]" multiple><br><br>
+                <input type="file" id="file" name="file[]" multiple><br><br>
 
                 <div class="upl">
                 <input type="submit" value="UPLOAD" id="submit">

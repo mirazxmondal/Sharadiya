@@ -1,16 +1,38 @@
 <?php
 require 'admin-DB-connection.php';
+
 $ptitle=$_POST['ptitle'];
 $description=$_POST['description'];
-// $thumbnail=$_POST['thumbnail']; 
+
 // to receive the photo or file $_FILES is used 
 $pic=$_FILES['thumbnail']['name'];
+ // Count total uploaded files
+ $totalfiles = count($_FILES['file']['name']);
+
+ // Looping over all files
+ for($i=0;$i<$totalfiles;$i++){
+ $filename = $_FILES['file']['name'][$i];
+ 
+// Upload files and store in database
+if(move_uploaded_file($_FILES["file"]["tmp_name"][$i],'../.././Upload/'.$filename)){
+		// Image db insert sql
+		$insert = "INSERT into admin(file) values('$filename')";
+		if(mysqli_query($conn, $insert)){
+		  echo 'Data inserted successfully';
+		}
+		else{
+		  echo 'Error: '.mysqli_error($conn);
+		}
+	}else{
+		echo 'Error in uploading file - '.$_FILES['file']['name'][$i].'<br/>';
+	}
+ }
 $url="../.././Upload/";
 $furl=$url.$pic;
 // know the file type
 $type=pathinfo($furl,PATHINFO_EXTENSION);
 
-if ($type=="jpeg" || $type=="jpg" || $type=="png" || $type=="mp4" || $type=="mpeg")
+if ($type=="jpeg" || $type=="jpg" || $type=="png")
 {
 // to place the pictures on server
 move_uploaded_file($_FILES['thumbnail']['tmp_name'],$furl);
@@ -32,28 +54,29 @@ else
 }
 ?>
 
-<!-- Multiple picture add logic -->
-<!-- if(isset($_POST['submit'])){
-// Count total uploaded files
-$totalfiles = count($_FILES['file']['name']);
+Multiple picture add logic
+<?php 
 
-// Looping over all files
-for($i=0;$i<$totalfiles;$i++){
-$filename = $_FILES['file']['name'][$i];
+//  // Count total uploaded files
+//  $totalfiles = count($_FILES['file']['name']);
+
+//  // Looping over all files
+//  for($i=0;$i<$totalfiles;$i++){
+//  $filename = $_FILES['file']['name'][$i];
  
-// Upload files and store in database
-if(move_uploaded_file($_FILES["file"]["tmp_name"][$i],'upload/'.$filename)){
-// Image db insert sql
- $insert = "INSERT into files(file_name,uploaded_on,status) values('$filename',now(),1)";
- if(mysqli_query($conn, $insert)){
-  echo 'Data inserted successfully';
- }
- else{
-  echo 'Error: '.mysqli_error($conn);
- }
-}else{
-  echo 'Error in uploading file - '.$_FILES['file']['name'][$i].'<br/>';
-} 
-}
-}  -->
+// // Upload files and store in database
+// if(move_uploaded_file($_FILES["file"]["tmp_name"][$i],'../.././Upload/'.$filename)){
+// 		// Image db insert sql
+// 		$insert = "INSERT into admin(file) values('$filename')";
+// 		if(mysqli_query($conn, $insert)){
+// 		  echo 'Data inserted successfully';
+// 		}
+// 		else{
+// 		  echo 'Error: '.mysqli_error($conn);
+// 		}
+// 	}else{
+// 		echo 'Error in uploading file - '.$_FILES['file']['name'][$i].'<br/>';
+// 	}
+//  }
 
+?>
