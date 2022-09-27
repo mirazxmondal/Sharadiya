@@ -73,8 +73,9 @@ require 'connect-session.php';
                 <input type="file" id="" name="thumbnail" required><br><br>
                 <p>(Upload 350px X 350px)</p>
 
-                <label for="name">Upload:</label>
-                <input type="file" id="file" name="file[]" multiple><br><br>
+                <label for="name">Upload a video:</label>
+                <!-- <input type="file" id="file" name="file[]" multiple><br><br> -->
+                <input type="file" id="file" name="file" required><br><br>
 
                 <div class="upl">
                 <input type="submit" value="UPLOAD" id="submit">

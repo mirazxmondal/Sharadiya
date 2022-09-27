@@ -18,7 +18,7 @@ echo "<td>" . $row['ptitle'] . "</td>";
 echo "<td>" . $row['description'] . "</td>";
 // echo '<img height="300" width="300"' . $rows['media'] . '>';
 echo "<td><img height= '350px' width='350px' src='../../../Upload".$row['media']."'></td>";
-echo "<td><img height='50px' width='50px' src='../../../Upload/right.png'></td>";
+echo " <a href='../../index.html/'><td><img height='50px' width='50px' src='../../../Upload/right.png'></td></a> ";
 echo "</tr>";
 }
 echo "</table>";
