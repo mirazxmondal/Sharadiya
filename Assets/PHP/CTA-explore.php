@@ -151,8 +151,9 @@
         echo "<td>" . $row['ptitle'] . "</td>";
         echo "<td>" . $row['description'] . "</td>";
         // echo '<img height="300" width="300"' . $rows['media'] . '>';
-        echo "<td><img height= '350px' width='350px' src='../Assets/../Upload/".$row['media']."'></td>";
-        echo "<td><video controls width='50%' height='30%'><source src='../Assets/../Upload/" .$row['file']."' controls></video></td>";
+        echo "<td><img height= '240px' width='350px' src='./Upload/".$row['media']."'></td>";
+
+        echo "<td><video controls height='240px' width='350px'><source src='./Upload/" .$row['file']."'></video></td>";
         echo "</tr>";
         }
         echo "</table>";

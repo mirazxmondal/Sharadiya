@@ -3,24 +3,30 @@ require 'admin-DB-connection.php';
 
 $ptitle=$_POST['ptitle'];
 $description=$_POST['description'];
-// to receive the photo or file $_FILES is used 
-$pic=$_FILES['thumbnail']['name'];
-$url="../.././Upload/";
-$furl=$url.$pic;
 
-$vid=$_FILES['file']['name'];
-$url1="../.././Upload/";
-$furl1=$url1.$vid;
+// to receive the photo or file $_FILES is used 
+// $pic=$_FILES['thumbnail']['name'];
+// $url="../.././Upload/";
+// $furl=$url.$pic;
+
+// $vid=$_FILES['file']['name'];
+// $url1="../.././Upload/";
+// $furl1=$url1.$vid;
+
+$file_1 = $_FILES['thumbnail']['name']; 
+$file_2 = $_FILES['file']['name']; 
+
 
 // know the file type
-$type=pathinfo($furl,PATHINFO_EXTENSION);
+// $type=pathinfo($furl,PATHINFO_EXTENSION);
 
-if ($type=="jpeg" || $type=="jpg" || $type=="png" || $type=="mp4" || $type=="mkv")
-{
+// if ($type=="jpeg" || $type=="jpg" || $type=="png" || $type=="mp4" || $type=="mkv")
+// {
 // to place the pictures on server
-move_uploaded_file($_FILES['thumbnail']['tmp_name']['file']['tmp_name'],$furl,$furl1);
+move_uploaded_file($_FILES['thumbnail']['tmp_name'], '../.././Upload/'.$file_1); 
+move_uploaded_file($_FILES['file']['tmp_name'], '../.././Upload/'.$file_2);
 
-$sql="insert into admin(ptitle,description,media,file) values('$ptitle','$description','$furl','$furl1')";
+$sql="insert into admin(ptitle,description,media,file) values('$ptitle','$description','$file_1','$file_2')";
 $x=mysqli_query($conn,$sql);
 if($x==1)
 {
@@ -30,11 +36,11 @@ else
 {
     header("location:welcome.php?msg=NotDone");
 }
-}
-else
-{
-    header("location:welcome.php?msg=type-not-matched");
-}
+// }
+// else
+// {
+//     header("location:welcome.php?msg=type-not-matched");
+// }
 ?>
 
 Multiple picture add logic
