@@ -150,8 +150,8 @@
         echo "<tr>";
         echo "<td>" . $row['ptitle'] . "</td>";
         echo "<td>" . $row['description'] . "</td>";
-        echo "<td><img height='240px' width='350px' src='./Upload/" .$row['media']. "'></td>";
-        echo "<td><video controls height='240px' width='350px'><source src='./Upload/" .$row['file']. "'></video></td>";
+        echo "<td><img height='250px' width='350px' src='../.././Upload/" .$row['media']. "'></td>";
+        echo "<td><video controls height='240px' width='350px'><source src='../.././Upload/" .$row['file']. "'></video></td>";
         echo "</tr>";
         }
         echo "</table>";
