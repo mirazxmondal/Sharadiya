@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 19, 2022 at 12:02 AM
--- Server version: 10.4.22-MariaDB
--- PHP Version: 8.0.13
+-- Generation Time: Sep 28, 2022 at 08:14 PM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -43,12 +43,8 @@ CREATE TABLE `sharadiya` (
 --
 
 INSERT INTO `sharadiya` (`id`, `name`, `number`, `zip`, `email`, `password`, `cpassword`, `address`) VALUES
-(5, 'Miraz Mondal', '6291688300', '700151', 'mirazmondal1@gmail.com', '11', '111', '93, K.M Roy Chowdhury Road, Dakshin Jagaddal, Rups'),
-(6, 'Miraz Mondal', '6291688300', '700151', 'mirazmondal1@gmail.com', 'gg', 'gg', '93, K.M Roy Chowdhury Road, Dakshin Jagaddal, Rups'),
-(7, 'Miraz Mondal', '6291688300', '700151', 'mirazmondal1@gmail.com', 'gg', 'gg', '93, K.M Roy Chowdhury Road, Dakshin Jagaddal, Rups'),
-(8, 'Miraz Mondal', '6291688300', '700151', 'mirazmondal1@gmail.com', 'bbbb', 'hjhhh', '93, K.M Roy Chowdhury Road, Dakshin Jagaddal, Rups'),
-(9, 'Miraz Mondal', '6291688300', '700151', 'mirazmondal1@gmail.com', 'aa', 'aa', '93, K.M Roy Chowdhury Road, Dakshin Jagaddal, Rups'),
-(10, 'Miraz Mondal', '6291688300', '700151', 'mirazmondal1@gmail.com', 'a', 'a', '93, K.M Roy Chowdhury Road, Dakshin Jagaddal, Rups');
+(11, 'Miraz Mondal', '6291688300', '700151', 'admin@gmail.com', 'admin', 'admin', '93, K.M Roy Chowdhury Road, Dakshin Jagaddal, Rups'),
+(12, 'Miraz Mondal', '6291688300', '700151', 'mirazmondal1@gmail.com', '123', '123', '93, K.M Roy Chowdhury Road, Dakshin Jagaddal, Rups');
 
 --
 -- Indexes for dumped tables
@@ -68,7 +64,7 @@ ALTER TABLE `sharadiya`
 -- AUTO_INCREMENT for table `sharadiya`
 --
 ALTER TABLE `sharadiya`
-  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

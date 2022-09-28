@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 22, 2022 at 07:06 PM
+-- Generation Time: Sep 28, 2022 at 08:13 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -31,19 +31,12 @@ CREATE TABLE `admin` (
   `id` int(4) NOT NULL,
   `ptitle` varchar(50) NOT NULL,
   `description` varchar(50) NOT NULL,
-  `media` varchar(200) NOT NULL,
-  `media1` varchar(200) NOT NULL,
+  `media` varchar(500) NOT NULL,
+  `file` varchar(666) NOT NULL,
   `media2` varchar(200) NOT NULL,
   `media3` varchar(200) NOT NULL,
   `media4` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `admin`
---
-
-INSERT INTO `admin` (`id`, `ptitle`, `description`, `media`, `media1`, `media2`, `media3`, `media4`) VALUES
-(1, 'AAA', 'AAA', '.././Uploadxampp-error.png', '', '', '', '');
 
 --
 -- Indexes for dumped tables
@@ -63,7 +56,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
