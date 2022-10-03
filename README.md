@@ -17,7 +17,14 @@ Sharadiya is a wholesome website for festive season currently it is on Durga Puj
 ## Login Page ##
 [![login.png](https://i.postimg.cc/rpRQRJT5/login.png)](https://postimg.cc/7CDgpSfL)
 
+## Where content will be upload Page ##
+[![upload.png](https://i.postimg.cc/sDmLKW0x/upload.png)](https://postimg.cc/8jFwz7Gg)
+
+## Where services will be listed ##
+[![services.png](https://i.postimg.cc/gcy17QBg/services.png)](https://postimg.cc/236HbcYW)
+
 ## CTA Page ##
+
 
 
 ## Service Page ##
@@ -30,7 +37,6 @@ Sharadiya is a wholesome website for festive season currently it is on Durga Puj
 
 **Server-side:** PHP, MySQL
 
-
 ## Creator
 
 - [@miraz-mondal](https://github.com/miraz-mondal)
@@ -40,4 +46,4 @@ Sharadiya is a wholesome website for festive season currently it is on Durga Puj
 
 ## Acknowledgements
 
-xxxx
+xoxoxo
