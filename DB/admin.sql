@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 28, 2022 at 08:13 PM
+-- Generation Time: Oct 10, 2022 at 07:14 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -33,9 +33,7 @@ CREATE TABLE `admin` (
   `description` varchar(50) NOT NULL,
   `media` varchar(500) NOT NULL,
   `file` varchar(666) NOT NULL,
-  `media2` varchar(200) NOT NULL,
-  `media3` varchar(200) NOT NULL,
-  `media4` varchar(200) NOT NULL
+  `media2` varchar(200) CHARACTER SET latin1 NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -56,7 +54,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=66;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

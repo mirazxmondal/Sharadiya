@@ -73,9 +73,11 @@ require 'connect-session.php';
                 <input type="file" id="" name="thumbnail" required><br><br>
                 <p>(Upload 350px X 350px)</p>
 
-                <label for="name">Upload a video:</label>
-                <!-- <input type="file" id="file" name="file[]" multiple><br><br> -->
-                <input type="file" id="file" name="file" required><br><br>
+                <!-- <label for="name">Upload a video:</label>
+                <input type="file" id="file" name="file" required><br><br> -->
+
+                <label for="name">Upload media:</label>
+                <input type="file" id="media2" name="media2[]" multiple><br><br>
 
                 <div class="upl">
                 <input type="submit" value="UPLOAD" id="submit">
@@ -100,6 +102,5 @@ require 'connect-session.php';
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
-
 
 
