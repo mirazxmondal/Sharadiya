@@ -14,16 +14,6 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
-    <style>
-        #phpcenter{
-            display: flex;
-            text-align: center;
-            justify-content: space-between;
-            margin: auto;
-            width: 60%;
-            padding: 10px;
-        }
-    </style>
   </head>
   <body>
      <!-- Modal -->
@@ -117,47 +107,79 @@
     <section id="pujas">
       <h1 class="text-center">Explore the culture in a new way!</h1> 
 
+      <div class="container d-flex justify-content-center align-items-center flex-column">
+        <div class="card mb-3" style="max-width: 1000px;">
+          <div class="row g-0">
+            <!-- Thumbnail -->
+            <div class="col-md-4">
+              <!-- <img src="../images/./about1.jpg" class="img-fluid rounded-start" alt="..."> -->
+              <?php
+                  require 'connect.php';
+                  $result = mysqli_query($conn,"SELECT * FROM admin");
+
+                  while($row = mysqli_fetch_array($result))
+                  {
+                  echo "<td><img height='250px' width='350px' src='../.././Upload/" .$row['media']. "'></td>";
+                  // echo "<td><video controls height='240px' width='350px'><source src='../.././Upload/" .$row['media2']. "'></video></td>";
+                  }
+                  mysqli_close($conn);
+              ?>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <!-- Title -->
+                <h3 class="card-title">
+                <?php
+                  require 'connect.php';
+                  $result = mysqli_query($conn,"SELECT * FROM admin");
+
+                  while($row = mysqli_fetch_array($result))
+                  {
+                  echo "<td>" . $row['ptitle'] . "</td>";
+                  // echo "<td><video controls height='240px' width='350px'><source src='../.././Upload/" .$row['media2']. "'></video></td>";
+                  }
+                  mysqli_close($conn);
+              ?>
+
+                </h3>
+                <!-- Description -->
+                <p class="card-text puja_info">
+                <?php
+                    require 'connect.php';
+                    $result = mysqli_query($conn,"SELECT * FROM admin");
+
+                    while($row = mysqli_fetch_array($result))
+                    {
+                      echo "<td>" . $row['description'] . "</td>";
+                    // echo "<td><video controls height='240px' width='350px'><source src='../.././Upload/" .$row['media2']. "'></video></td>";
+                    }
+                    mysqli_close($conn);
+                ?>
+                </p>
+
+                <a href="./view.php"><button class="btn btn-primary ">View</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- <div class="container d-flex justify-content-center align-items-center flex-column">
         <div class="card mb-3" style="max-width: 1000px;">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src="../images/./about1.jpg" class="img-fluid rounded-start" alt="...">
+              <img src="../images/./sree1.jpg" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h3 class="card-title">Suruchi Sangha</h3>
-                <p class="card-text puja_info">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h3 class="card-title">Sree Bhumi Sporting Club</h3>
+                <p class="card-text puja_info">One of the leading Durga Puja in North Calcutta</p>
                 <a href=""><button class="btn btn-primary ">View</button></a>
               </div>
             </div>
           </div>
         </div>
       </div> -->
-
-      <div id="phpcenter">
-        <?php
-        require 'connect.php';
-        $result = mysqli_query($conn,"SELECT * FROM admin");
-
-        echo "<table border='1' border-collapse: collapse;>
-        <tr>
-        <th>Title</th>
-        <th>Description</th>
-        <th>Media</th>
-        </tr>";
-        while($row = mysqli_fetch_array($result))
-        {
-        echo "<tr>";
-        echo "<td>" . $row['ptitle'] . "</td>";
-        echo "<td>" . $row['description'] . "</td>";
-        echo "<td><img height='250px' width='350px' src='../.././Upload/" .$row['media']. "'></td>";
-        echo "<td><video controls height='240px' width='350px'><source src='../.././Upload/" .$row['file']. "'></video></td>";
-        echo "</tr>";
-        }
-        echo "</table>";
-        mysqli_close($conn);
-        ?>
-      </div>
 
     </section>
 
