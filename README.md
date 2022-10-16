@@ -1,5 +1,5 @@
 # Sharadiya
-Sharadiya is a wholesome website for festive season currently it is on Durga Puja mainly designed for specially abled people who are unable to come to places it is designed for them to get the full experience of the festive season. Also to the people who are unable to come to their hometown for feestive season, Sharadiya is designed for them <3
+Sharadiya is a wholesome website for festive season currently it is on Durga Puja mainly designed for specially abled people who are unable to come to places it is designed for them to get the full experience of the festive season. Also to the people who are unable to come to their hometown for festive season, Sharadiya is designed for them <3
 
 # Screenshots
 ## landing Page ##
