@@ -43,7 +43,7 @@ Sharadiya is a wholesome website for festive season currently it is on Durga Puj
 - [@TuhinBar](https://github.com/TuhinBar)
 - [@Apurba-Sardar](https://github.com/Apurba-Sardar)
 - [@Debjanikhan](https://github.com/Debjanikhan)
-- [@Priyanka-Karmakar]
+- @Priyanka-Karmakar
 
 
 ## Acknowledgements
