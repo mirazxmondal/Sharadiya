@@ -119,9 +119,7 @@
 
                   while($row = mysqli_fetch_array($result))
                   {
-                  echo "<td><img height='250px' width='350px' src='../.././Upload/" .$row['media']. "'></td>";?>
-                  <a href="./view.php"><button class="btn btn-primary ">View</button></a>
-                  <?php
+                  echo "<td><img height='250px' width='350px' src='../.././Upload/" .$row['media']. "'></td>";
                   // echo "<td><video controls height='240px' width='350px'><source src='../.././Upload/" .$row['media2']. "'></video></td>";
                   }
                   mysqli_close($conn);
