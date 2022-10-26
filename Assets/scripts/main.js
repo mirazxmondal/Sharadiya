@@ -1,6 +1,5 @@
 console.log("starting main js");
 
-
 //  Dhak sound
 
 const dhak = new Audio("Assets/audio/dhak.mp3");
@@ -13,7 +12,7 @@ explore.addEventListener("mouseenter", () => {
 });
 
 explore.addEventListener("mouseleave", () => {
-
+    
     dhak.pause();
 });
 

@@ -1,7 +1,7 @@
 <?php
 require 'connect.php';
-$i="";
-$query="select media2 from admin";
+$i=""; 
+$query="SELECT media2 FROM admin";
 $fire=mysqli_query($conn,$query);
 $data=mysqli_fetch_array($fire);
 $res=$data['media2'];

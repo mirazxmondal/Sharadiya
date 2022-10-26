@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="../images/./favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="../styles/./style.css" />
+    <link rel="stylesheet" href="../styles/./style.css"/>
     <title>Explore - Top Pujas in Kolakata</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -78,6 +78,9 @@
                 >
               </li>
               <li class="nav-item mx-2">
+                  <a class="nav-link" href="./blog.html">Blog</a>
+                </li>
+              <li class="nav-item mx-2">
                 <a class="nav-link" href="../../about.html">About</a>
               </li>
               <li class="nav-item mx-2">
@@ -107,82 +110,26 @@
     <section id="pujas">
       <h1 class="text-center">Explore the culture in a new way!</h1> 
 
-      <div class="container d-flex justify-content-center align-items-center flex-column">
-        <div class="card mb-3" style="max-width: 1000px;">
-          <div class="row g-0">
-            <!-- Thumbnail -->
-            <div class="col-md-4">
-              <!-- <img src="../images/./about1.jpg" class="img-fluid rounded-start" alt="..."> -->
+        <div class="parent">
+        <!-- <img src="./sree1.jpg" alt="Thumnail" class="image"> -->
               <?php
                   require 'connect.php';
                   $result = mysqli_query($conn,"SELECT * FROM admin");
-
                   while($row = mysqli_fetch_array($result))
                   {
                   echo "<td><img height='250px' width='350px' src='../.././Upload/" .$row['media']. "'></td>";?>
-                  <a href="./view.php"><button class="btn btn-primary ">View</button></a>
+                  <?php
+                  echo "<td>" . $row['ptitle'] . "</td>";
+                  echo "<td>" . $row['description'] . "</td>";
+                  ?>
+                  <a href="./view.php"><button class="btn btn-primary ">View</button></a> <br><br>
                   <?php
                   // echo "<td><video controls height='240px' width='350px'><source src='../.././Upload/" .$row['media2']. "'></video></td>";
                   }
                   mysqli_close($conn);
               ?>
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <!-- Title -->
-                <h3 class="card-title">
-                <?php
-                  require 'connect.php';
-                  $result = mysqli_query($conn,"SELECT * FROM admin");
-
-                  while($row = mysqli_fetch_array($result))
-                  {
-                  echo "<td>" . $row['ptitle'] . "</td>";
-                  // echo "<td><video controls height='240px' width='350px'><source src='../.././Upload/" .$row['media2']. "'></video></td>";
-                  }
-                  mysqli_close($conn);
-              ?>
-
-                </h3>
-                <!-- Description -->
-                <p class="card-text puja_info">
-                <?php
-                    require 'connect.php';
-                    $result = mysqli_query($conn,"SELECT * FROM admin");
-
-                    while($row = mysqli_fetch_array($result))
-                    {
-                      echo "<td>" . $row['description'] . "</td>";
-                    // echo "<td><video controls height='240px' width='350px'><source src='../.././Upload/" .$row['media2']. "'></video></td>";
-                    }
-                    mysqli_close($conn);
-                ?>
-                </p>
-
-                <a href="./view.php"><button class="btn btn-primary">View</button></a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-
-      <!-- <div class="container d-flex justify-content-center align-items-center flex-column">
-        <div class="card mb-3" style="max-width: 1000px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="../images/./sree1.jpg" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h3 class="card-title">Sree Bhumi Sporting Club</h3>
-                <p class="card-text puja_info">One of the leading Durga Puja in North Calcutta</p>
-                <a href=""><button class="btn btn-primary ">View</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-
+        
     </section>
 
     <script src="../scripts/./main.js"></script>

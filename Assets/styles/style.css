@@ -206,6 +206,19 @@
     font-family: var(--secondary-font);
 }
 
+/* CTA-explore card */
+.parent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #FFFF00;
+    padding: 10px;
+  } 
+
+/* Button */
+
+
 /* Media queries */
 
 @media  screen and (min-width: 0px) and (max-width: 400px) {
