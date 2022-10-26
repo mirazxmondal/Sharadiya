@@ -27,3 +27,18 @@ explore.addEventListener("mouseleave", () => {
 // submitBtn.onmouseout  = function() {
 //     submitBtn.value = submitBtnhovered;
 // }
+
+// Modal for cookie
+function cookieModalPop() {
+    let modalPop = document.querySelector(".cookie-modal-overlay");
+    modalPop.classList.remove("cookie-modal-hide");
+}
+setTimeout(cookieModalPop, 1000);
+
+const cookieModalClose = () =>{
+    let modalClose= document.querySelector(".cookie-modal-overlay")
+    modalClose.classList.add("cookie-modal-hide")
+}
+
+let cookieBtns = document.querySelector(".cookie-modal-close")
+cookieBtns.addEventListener("click", cookieModalClose)
