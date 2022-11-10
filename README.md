@@ -153,6 +153,9 @@ And the most important thing, go with a design or wireframe. Don't go blank it w
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+Sharadiya is designed for elderlies and for thoes people who are out of their hometown and cannot attend the festive season. This is a one stop solution for them. Three types of users are there. One type of user who can read the content, watch a video, and explore the services menu also can apply to the job that is present on the web application. The other two users are content creator users and employer users, both are self-explanatory they can create content regarding Bengali's biggest festival Durga Puja and post it there. The other employer user can list as many services as he or want so he/she can hire the right guy for the job. They both need to sign up then they can enter the main section where these operations are being taken place through PHP and MySQL servers. Other than that the web application also has a blog section where one can see content and this web application is fully responsive. This application also has a admin-panel which is there to see the MySQL rows without running the MySQL server.
+
+
 <!-- It is a fun projects and a really cool game with uh! impressive UI I guess! So you can use it to show off your strategic skill to your friend. Or you can use it for a litle timepass. Have fun!
 
 _For more examples, please refer to the [Documentation](https://github.com/TuhinBar/Tic_Tac_Toe/README.md)_ -->
