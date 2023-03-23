@@ -81,7 +81,7 @@
 ## About The Project
 - Previews
 ![Project01](https://i.postimg.cc/ZRqPF5P6/landing.png)
-![project_01](https://i.postimg.cc/rwPrW2yP/landing-2nd.png)
+[![Screenshot-141.png](https://i.postimg.cc/8cyFmpPW/Screenshot-141.png)](https://postimg.cc/7J2YxyzY)
 ![previws](https://i.postimg.cc/vH1MBJjB/landing-3rd.png)
 ![previws](https://i.postimg.cc/bvPjmsvD/footer.png)
 
