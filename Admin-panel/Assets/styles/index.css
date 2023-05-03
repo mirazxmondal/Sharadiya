@@ -1,41 +1,45 @@
 body {
-    background: rgb(232,148,79);
-    background: linear-gradient(90deg, rgba(232,148,79,1) 0%, rgba(255,120,108,1) 100%, rgba(0,212,255,1) 100%);
+  background: rgb(232, 148, 79);
+  background: linear-gradient(
+    90deg,
+    rgba(232, 148, 79, 1) 0%,
+    rgba(255, 120, 108, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
-label{
-    width: 180px;
-    clear: left;
-    text-align: right;
-    padding-right: 10px;
+label {
+  width: 180px;
+  clear: left;
+  text-align: right;
+  padding-right: 10px;
 }
 
-input, label{
-    float: left;
+input,
+label {
+  float: left;
 }
 
-p{
-    text-align: center;
-    font-size: 2rem;
+p {
+  text-align: center;
+  font-size: 2rem;
 }
 
-.class-form{
-    border-radius: 10px;
-    margin: auto;
-    width: 40%;
-    border: 3px solid purple;
-    padding: 10px;
-    font-size: 1rem;
+.class-form {
+  border-radius: 10px;
+  margin: auto;
+  width: 40%;
+  border: 3px solid purple;
+  padding: 10px;
+  font-size: 1rem;
 }
 
-.class-submit{
-    background-color: rgb(214, 46, 46);
-    border: none;
-    border-radius: 8px;
-    padding: 16px 120px;
-    margin: 4px 2px;
-    cursor: pointer;
-    color: white;
+.class-submit {
+  background-color: rgb(214, 46, 46);
+  border: none;
+  border-radius: 8px;
+  padding: 16px 120px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: white;
 }
-
-

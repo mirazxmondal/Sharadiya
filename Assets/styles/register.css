@@ -75,6 +75,7 @@ form{
     position: sticky;
 } 
 
+
 /* Registration Successful Message */
 .backtohome{
     background-color: #e1801f !important;
@@ -109,10 +110,3 @@ form{
 a{
     position: sticky;
 }
-
-/* .pmessage{
-    background-color: white !important; 
-    font-size: 2rem;
-    font-weight: bold;
-} */
-
