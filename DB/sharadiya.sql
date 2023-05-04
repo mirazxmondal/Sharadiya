@@ -43,8 +43,8 @@ CREATE TABLE `sharadiya` (
 --
 
 INSERT INTO `sharadiya` (`id`, `name`, `number`, `zip`, `email`, `password`, `cpassword`, `address`) VALUES
-(11, 'Miraz Mondal', '6291688300', '700151', 'admin@gmail.com', 'admin', 'admin', '93, K.M Roy Chowdhury Road, Dakshin Jagaddal, Rups'),
-(12, 'Miraz Mondal', '6291688300', '700151', 'mirazmondal1@gmail.com', '123', '123', '93, K.M Roy Chowdhury Road, Dakshin Jagaddal, Rups');
+(11, 'Miraz Mondal', '', '', 'admin@gmail.com', 'admin', 'admin', ''),
+(12, 'Miraz Mondal', '', '', 'mirazmondal1@gmail.com', '123', '123', '');
 
 --
 -- Indexes for dumped tables
