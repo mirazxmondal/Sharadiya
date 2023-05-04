@@ -16,4 +16,3 @@ else
 {
     header("location:../../index.html?msg=wrongemailorpassword");
 }
-?>

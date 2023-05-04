@@ -17,4 +17,3 @@ else
 {
     header("location:service-registration-successful.html?msg=NotDone");
 }
-?>

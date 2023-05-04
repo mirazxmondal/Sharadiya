@@ -91,7 +91,6 @@ input[type="submit"]:hover {
   text-decoration: underline;
 }
 
-
 /* Services page */
 .upl1 {
   position: absolute;
@@ -111,7 +110,6 @@ input[type="submit"]:hover {
   display: flex;
   flex-wrap: wrap;
 }
-
 
 /* admin-confirmation page CSS */
 .form-main-container1 {
