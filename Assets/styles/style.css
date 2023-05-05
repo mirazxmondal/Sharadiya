@@ -35,14 +35,12 @@ html {
 .hero {
   background-image: url("../images/b1.jpg") !important;
   background-size: cover;
-  /* background-position: center; */
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
 }
 .hero2 {
   background-size: cover;
-  /* background-position: center; */
   background-repeat: no-repeat;
   width: 100%;
   height: 10vh;
@@ -123,11 +121,6 @@ html {
   border-radius: 10px !important;
   color: black !important;
 }
-
-/* Modal */
-/* form{
-    all: none !important;
-} */
 
 /* Footer */
 .footer_content {
@@ -219,10 +212,7 @@ html {
   padding: 10px;
 }
 
-/* Button */
-
-/* Media queries */
-
+/* Media Queries */
 @media screen and (min-width: 0px) and (max-width: 400px) {
   .feature_text {
     position: absolute;

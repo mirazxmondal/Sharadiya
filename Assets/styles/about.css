@@ -3,6 +3,17 @@ body {
   font-family: "Signika Negative", sans-serif !important;
   background-color: #fbf2cf !important;
 }
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+}
+
 .nav_design {
   background-image: linear-gradient(to left, #fffefb93, #ffffff00);
   position: fixed !important;
