@@ -150,3 +150,17 @@ input[type="submit"]:hover {
   font-weight: bold;
   box-shadow: 18px 11px 44px -10px rgba(0, 0, 0, 0.72);
 }
+
+#button-back {
+  position: sticky;
+  cursor: pointer;
+  float: left;
+  padding: 20px;
+}
+
+#thankyou-gif {
+  position: sticky;
+  padding-right: 60px;
+  height: 300px;
+  width: 300px;
+}

@@ -1,41 +1,41 @@
 /* Importing fonts */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Signika+Negative:wght@700&family=Ubuntu:wght@700&display=swap');
 
-:root{
+:root {
     --primary-font: 'Signika Negative', sans-serif;
     --secondary-font: 'Josefin Sans', sans-serif;
     --primary-color: background: rgb(232,148,79);
                      background: linear-gradient(90deg, rgba(232,148,79,1) 0%, rgba(255,120,108,1) 100%, rgba(0,212,255,1) 100%);
 }
 
-*, body, html{
+*, body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: var(--primary-color) !important;
 }
 
-label{
+label {
     background-color: white !important; 
     display: inline-block;
     width: 200px;
     font-weight: bold;
 }
 
-input{
+input {
     background-color: white !important; 
     padding: 5px 10px;
     border-radius: 7px;
 }
 
-input[type=submit], input[type=reset]{
+input[type=submit], input[type=reset] {
     background-color: #e1801f !important;
     width: 100px;
     border: none;
     color: white;
 }
 
-.main-container{
+.main-container {
     margin-top: 50px;
     border-radius: 10px;
     box-shadow: 10px 26px 32px 0px rgba(0,0,0,0.49);
@@ -46,38 +46,38 @@ input[type=submit], input[type=reset]{
     width: 1000px;
 }
 
-.text-container, .images-container{
+.text-container, .images-container {
     background-color: white !important; 
     display: inline-block;
     padding: 1rem 1rem;
     vertical-align: middle;
 }
 
-.center{
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-p{
+p {
     background-color: white !important; 
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
-form{
+form {
     background-color: white !important; 
 }
 
-.x{
+.x {
     margin-left: 860px;
     position: sticky;
 } 
 
 
 /* Registration Successful Message */
-.backtohome{
+.backtohome {
     background-color: #e1801f !important;
     border-radius: 10px;
     width: 300px;
@@ -88,7 +88,7 @@ form{
     box-shadow: 18px 11px 44px -10px rgba(0,0,0,0.72);
 }
 
-.backtohome:hover{
+.backtohome:hover {
     background-color: maroon !important;
     transition: all .7s;
     border-radius: 10px;
@@ -100,13 +100,24 @@ form{
     box-shadow: 18px 11px 44px -10px rgba(0,0,0,0.72);
 }
 
-.center{
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
-a{
+a {
     position: sticky;
 }
+
+#button-back {
+    position: sticky;
+    cursor: pointer;
+    float: left;
+    padding: 20px;
+  }
+  
+  #thankyou-gif {
+    position: sticky;
+    padding-right: 60px;
+  }
