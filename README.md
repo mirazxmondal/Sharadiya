@@ -9,13 +9,13 @@
   <h3 align="center">Sharadiya</h3>
 
   <p align="center">
-    An online platform to enjoy the heritage of Durga Puja in virtual mode.
+    An online platform to enjoy the heritage of Durga Puja in virtual mode
     <br />
-    <a href="https://github.com/miraz-mondal/Sharadiya">View Demo</a>
+    <a href="https://sharadiya.vercel.app/">View Demo</a>
     ·
-    <a href="https://github.com/miraz-mondal/Sharadiya/issues">Report Bug</a>
+    <a href="https://github.com/mirazxmondal/Sharadiya/issues">Report Bug</a>
     ·
-    <a href="https://github.com/miraz-mondal/Sharadiya/issues">Request Feature</a>
+    <a href="https://github.com/mirazxmondal/Sharadiya/issues/new">Request Feature</a>
   </p>
 </div>
 
@@ -37,6 +37,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#folder-structure">Folder Structure</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
     <li><a href="#license">License</a></li>
   </ol>
