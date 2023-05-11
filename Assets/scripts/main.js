@@ -1,5 +1,3 @@
-console.log("starting main js");
-
 //  Dhak sound
 
 const dhak = new Audio("Assets/audio/dhak.mp3");
@@ -7,15 +5,13 @@ const dhak = new Audio("Assets/audio/dhak.mp3");
 const explore = document.querySelector(".carousel");
 
 explore.addEventListener("mouseenter", () => {
-    dhak.volume = 0.1;
-    dhak.play();
+  dhak.volume = 0.1;
+  dhak.play();
 });
 
 explore.addEventListener("mouseleave", () => {
-    
-    dhak.pause();
+  dhak.pause();
 });
-
 
 // welcome.php-file-js
 // const submitBtn = document.getElementById('submit')
