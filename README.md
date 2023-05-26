@@ -197,11 +197,9 @@ Don't forget to give the project a star! Thanks again!
        - [about.jpg](Assets/images/about.jpg)
        - [about1.jpg](Assets/images/about1.jpg)
        - [about2.jpg](Assets/images/about2.jpg)
-       - [apurba.png](Assets/images/apurba.png)
        - [b1.jpg](Assets/images/b1.jpg)
        - [button\-back.png](Assets/images/button-back.png)
        - [cross.gif](Assets/images/cross.gif)
-       - [debjani.png](Assets/images/debjani.png)
        - __explore__
          - [1603396521\_tsp\-2\-suruchi\-sangha2.jpg](Assets/images/explore/1603396521_tsp-2-suruchi-sangha2.jpg)
          - [Fd6NzhPUcAEy\-ee.jpg](Assets/images/explore/Fd6NzhPUcAEy-ee.jpg)
@@ -219,8 +217,6 @@ Don't forget to give the project a star! Thanks again!
        - [feature.jpg](Assets/images/feature.jpg)
        - [footer.jpg](Assets/images/footer.jpg)
        - [footer1.jpg](Assets/images/footer1.jpg)
-       - [miraz.png](Assets/images/miraz.png)
-       - [priyanka.png](Assets/images/priyanka.png)
        - [register.jpg](Assets/images/register.jpg)
        - [register1.jpg](Assets/images/register1.jpg)
        - [silde1.jpg](Assets/images/silde1.jpg)
@@ -228,15 +224,16 @@ Don't forget to give the project a star! Thanks again!
        - [slide3.jpg](Assets/images/slide3.jpg)
        - [sree1.jpg](Assets/images/sree1.jpg)
        - [thankyou.gif](Assets/images/thankyou.gif)
-       - [tuhin.png](Assets/images/tuhin.png)
        - [updated\-footer.png](Assets/images/updated-footer.png)
      - __scripts__
+       - [CTA.js](Assets/scripts/CTA.js)
        - [about.js](Assets/scripts/about.js)
        - [blog\-modal.js](Assets/scripts/blog-modal.js)
        - [main.js](Assets/scripts/main.js)
        - [register.js](Assets/scripts/register.js)
        - [script.js](Assets/scripts/script.js)
      - __styles__
+       - [CTA.css](Assets/styles/CTA.css)
        - [about.css](Assets/styles/about.css)
        - [register.css](Assets/styles/register.css)
        - [style.css](Assets/styles/style.css)
@@ -248,7 +245,6 @@ Don't forget to give the project a star! Thanks again!
      - [sharadiya.sql](DB/sharadiya.sql)
    - [README.md](README.md)
    - __Upload__
-     - [1500x500.jpg](Upload/1500x500.jpg)
    - [about.html](about.html)
    - [blog.html](blog.html)
    - [explore.html](explore.html)
@@ -256,6 +252,8 @@ Don't forget to give the project a star! Thanks again!
    - [license](license)
    - [register.html](register.html)
    - [services.html](services.html)
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
