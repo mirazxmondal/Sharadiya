@@ -11,9 +11,9 @@ $x=mysqli_query($conn,$sql);
 
 if($x==1)
 {
-    header("location:service-registration-successful.html?msg=Done");
+    header("location:service-registration-successful.php?msg=Done");
 }
 else
 {
-    header("location:service-registration-successful.html?msg=NotDone");
+    header("location:service-registration-successful.php?msg=NotDone");
 }

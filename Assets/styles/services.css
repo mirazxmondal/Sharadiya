@@ -56,6 +56,12 @@ input {
   border-radius: 15px;
 }
 
+input[type="date"] {
+  background-color: white !important;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
 input[type="submit"],
 input[type="reset"] {
   background-color: #e1801f !important;

@@ -28,7 +28,7 @@ if ($type == "jpeg" || $type == "jpg" || $type == "png" || $type == "mp4" || $ty
     $sql = "insert into admin(ptitle,description,media,file,media2) values('$ptitle','$description','$file_1','$file_2','$data')";
     $x = mysqli_query($conn, $sql);
     if ($x == 1) {
-        header("location:admin-confirmation.html?msg=Done");
+        header("location:upload-successful.php?msg=Done");
     } else {
         header("location:upload-page.php?msg=NotDone");
     }

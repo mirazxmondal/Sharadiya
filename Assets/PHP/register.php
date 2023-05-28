@@ -18,10 +18,10 @@ $x=mysqli_query($conn,$sql);
 
 if($x==1)
 {
-    header("location:registration-successful.html?msg=Done");
+    header("location:registration-successful.php?msg=Done");
 }
 else
 {
-    header("location:registration-successful.html?msg=NotDone");
+    header("location:registration-successful.php?msg=NotDone");
 }
 ?>
