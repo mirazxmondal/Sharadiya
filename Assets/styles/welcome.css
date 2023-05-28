@@ -1,0 +1,49 @@
+/* Importing fonts */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Signika+Negative:wght@700&family=Ubuntu:wght@700&display=swap");
+
+:root {
+  --primary-font: "Signika Negative", sans-serif;
+  --secondary-font: "Josefin Sans", sans-serif;
+}
+
+body {
+  background: rgb(232, 148, 79);
+  background: linear-gradient(
+    90deg,
+    rgba(232, 148, 79, 1) 0%,
+    rgba(255, 120, 108, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+Main {
+  margin-top: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#bottone1 {
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-radius: 9px;
+  background: #bfe23f;
+  border: none;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-bottom: 50px;
+}
+
+#bottone1:hover {
+  box-shadow: 7px 5px 56px -14px #1a8f27;
+}
+
+#bottone1:active {
+  transform: scale(0.97);
+  box-shadow: 7px 5px 56px -10px #c3d900;
+}

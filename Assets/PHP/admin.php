@@ -30,10 +30,10 @@ if ($type == "jpeg" || $type == "jpg" || $type == "png" || $type == "mp4" || $ty
     if ($x == 1) {
         header("location:admin-confirmation.html?msg=Done");
     } else {
-        header("location:welcome.php?msg=NotDone");
+        header("location:upload-page.php?msg=NotDone");
     }
 } else {
-    header("location:welcome.php?msg=type-not-matched");
+    header("location:upload-page.php?msg=type-not-matched");
 }
 ?>
 
