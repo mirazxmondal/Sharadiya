@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/welcome-php.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../styles/register.css" />
+    <title>Sign up</title>
     <link
       rel="shortcut icon"
       href="../images/./favicon.png"
       type="image/x-icon"
       sizes="16x16 32x32"
     />
-    <title>Sharadiya</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
     <style>
       a {
         position: sticky !important;
@@ -19,9 +24,8 @@
     </style>
   </head>
   <body>
-    <center>
-      <!-- <div class="center"> -->
-      <div class="form-main-container1">
+    <div class="center">
+      <div class="main-container">
         <div class="image-successful">
           <a href="./upload-page.php">
             <img
@@ -32,24 +36,32 @@
           </a>
           <img
             src="../images/thankyou.gif"
-            alt="Thank you for uploading!"
+            alt="Thank you for registering!"
             id="thankyou-gif"
           />
         </div>
+        <br />
+
         <div class="message">
           <p class="pmessage">
             You have successfully submitted, admin will review it, till then
           </p>
+          <br /><br /><br />
           <a href="../PHP/CTA-explore.php"
-            ><button class="backtohome">EXPLORE</button></a
-          >
+            ><button class="backtohome">EXPLORE</button>
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="../PHP/logout.php"
             ><button class="backtohome">LOG OUT</button></a
           >
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </div>
       </div>
-      <!-- </div> -->
-    </center>
+    </div>
+    <script src="Assets/scripts/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
