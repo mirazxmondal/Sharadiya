@@ -74,6 +74,20 @@ html {
   gap: 1rem;
 }
 
+/* Puja info */
+.puja_info {
+  font-family: var(--secondary-font);
+}
+
+/* CTA-explore card */
+.parent {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 15%;
+  padding: 10px;
+}
+
 /* Feature */
 .feature_image {
   width: 100%;
@@ -196,20 +210,6 @@ html {
 }
 .footer_copy p {
   margin: 0;
-}
-
-/* Puja info */
-.puja_info {
-  font-family: var(--secondary-font);
-}
-
-/* CTA-explore card */
-.parent {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 15%;
-  padding: 10px;
 }
 
 /* Media Queries */
