@@ -1,81 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="Assets/images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="Assets/styles/style2.css" />
-    <title> Blogs - Top Pujas in Kolkata </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-     <!-- Modal -->
-     <form action="./Assets/PHP/login.php">
-      <div
-        class="modal fade"
-        id="exampleModal"
-        tabindex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog ">
-          <div class="modal-content ">
-            <div class="modal-header">
-              <h5 class="modal-title text-center" id="exampleModalLabel">Login</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body d-flex justify-content-center align-items-center flex-column">
-              <form action="login.php" method="post" class="d-flex justify-content-center align-items-center">
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" name="phpname" required> 
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="phppassword" required> 
-                </div>
-                <button type="submit" class="btn btn-danger">Login</button>
-              </form>
-            </div>
-            </div>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="Assets/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="Assets/styles/blog.css" />
+  <title> Blogs - Top Pujas in Kolkata </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- Modal -->
+  <form action="./Assets/PHP/login.php">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog ">
+        <div class="modal-content ">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="exampleModalLabel">Login</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body d-flex justify-content-center align-items-center flex-column">
+            <form action="login.php" method="post" class="d-flex justify-content-center align-items-center">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Email" name="phpname" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"
+                  name="phppassword" required>
+              </div>
+              <button type="submit" class="btn btn-danger">Login</button>
+            </form>
           </div>
         </div>
       </div>
-     </form>
-    <section id="top" >
-      <div class="hero2">
+    </div>
+    </div>
+  </form>
+  <section id="top">
+    <div class="hero2">
       <nav class="navbar navbar-expand-lg nav_design">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"> Sharadiya</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item mx-2">
-                <a class="nav-link active" aria-current="page" href="./index.html"
-                  >Home</a
-                >
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
               </li>
               <li class="nav-item mx-2">
                 <a class="nav-link" href="./about.html">About</a>
@@ -86,14 +68,8 @@
                 </a>
               </li>
               <li class="nav-item mx-2">
-                <!-- <a href="login.html"><button class="btn btn-danger">Login</button></a> -->
                 <!-- Button trigger modal -->
-                <button
-                  type="button"
-                  class="btn btn-danger"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                >
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
                   Login
                 </button>
               </li>
@@ -102,103 +78,109 @@
         </div>
       </nav>
     </div>
-    </section>
+  </section>
 
-    <section id="pujas">
-      <h1 class="text-center">Explore best Pujas in Kolkata!</h1> 
-      
-      <div class="container d-flex justify-content-center align-items-center flex-column">
-        
-        <div class="projcard-container">
-    
-          <div class="projcard projcard-blue">
-            <div class="projcard-innerbox">
-              <img class="projcard-img" src="./Assets/images/explore/photo-1616074385287-67f6fb9e9eb8.jfif" />
-              <div class="projcard-textbox">
-                <div class="projcard-title">Sreebhumi Durga Puja Pandal</div>
-                <div class="projcard-subtitle">Awarded with Biswa Bangla Sharad Samman</div>
-                <div class="projcard-bar"></div>
-                <div class="projcard-description">This year, the Shree Bhoomi Sporting Club, which is famous for its elaborate and unique pandal, has based their theme on the Vatican City. For this, the club has created its marquee as a replica of the Vatican City’s St Peters Basilica. The pictures and videos of the puja pandal are being widely shared online.</div>
-                <!-- <div class="projcard-tagbox">
-                  <div class="projcard-tag">Durga Puja</div>
-                  <div class="projcard-tag">Kolkata</div>
-                  <div class="projcard-tag">Biswa Bangla Sharad Samman</div>
-                </div> -->
-                <!-- <a href="sbhumi.html"> -->
-                <button type="button" id="sreebhumi" class="btn btn-primary">Read More</button>
-              <!-- </a> -->
-              </div>
-            </div>
-          </div>
+  <section id="pujas">
+    <h1 class="text-center">Explore best Pujas in Kolkata!</h1>
 
-          
-          
-          <div class="projcard projcard-red">
-            <div class="projcard-innerbox">
-              <img class="projcard-img" src="./Assets/images/explore/pexels-kolkatar-chobiwala-13005341.jpg" />
-              <div class="projcard-textbox">
-                <div class="projcard-title">Baghbazar Sarbojanin</div>
-                <div class="projcard-subtitle">Awarded with Biswa Bangla Sharad Samman</div>
-                <div class="projcard-bar"></div>
-                <div class="projcard-description">Baghbazar Sarbojanin’s historical background For almost a century, the Durga Puja pandal has been an integral part of the development and history of Bengali culture. During this lengthy and rich period of time, it has witnessed all the historical transformations and pivotal moments. The largest crowds gather at Kolkata’s Bagbazar on the occasion of Durga Puja.</div>
-                <button type="button" id="bagbazar" class="btn btn-primary">Read More</button>
-              </div>
-            </div>
-          </div>
-
-         
-          
-          <div class="projcard projcard-green">
-            <div class="projcard-innerbox">
-              <img class="projcard-img" src="./Assets/images/explore/pexels-souvik-laha-5559377.jpg" />
-              <div class="projcard-textbox">
-                <div class="projcard-title">Santosh Mitra Square </div>
-                <div class="projcard-subtitle">Awarded with Biswa Bangla Sharad Samman</div>
-                <div class="projcard-bar"></div>
-                <div class="projcard-description"> One of Kolkata’s busiest Durga Puja pandals is Santosh Mitra Square. Santosh Mitra Square has become a favorite among Puja goers in Kolkata year after year thanks to its distinctively diversified themes. The stunning artwork is what made this Durga puja famous.</div>
-                <button type="button" id="smitra" class="btn btn-primary">Read More</button>
-              </div>
-            </div>
-          </div>
-        
-          
-          <div class="projcard projcard-customcolor" style="--projcard-color: #F5AF41;">
-            <div class="projcard-innerbox">
-              <img class="projcard-img" src="./Assets/images/explore/c3da6a12b998dde24a9c43a754647614.jpg" />
-              <div class="projcard-textbox">
-                <div class="projcard-title">Suruchi Sangha </div>
-                <div class="projcard-subtitle">Awarded with Asian Prints Sharad Samman.</div>
-                <div class="projcard-bar"></div>
-                <div class="projcard-description">This organization is renowned for the original themes that it develops each year. In 2010, the pandal even took home the award for artistic brilliance. It is one among the pandals in Kolkata that receives the most visits each year.</div>
-                <button type="button" id="suruchi" class="btn btn-primary">Read More</button>
-              </div>
-            </div>
-          </div>
-
-          
-
-          
-        </div>
-    </section>
-  <div class="modal_containers">
-    <div class="modal-overlay modal-hide">
-      
-      
-    </div>
-  </div>
     <div class="clock">
       <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-<a href="https://logwork.com/countdown-wubc" class="countdown-timer" data-width="777" data-timezone="Asia/Kolkata" data-textcolor="#470909" data-date="2023-09-30 15:36" data-background="#707070" data-unitscolor="#2b0000">Countdown to Durga Puja 2023</a>
+      <a href="https://logwork.com/countdown-wubc" class="countdown-timer" data-width="777" data-timezone="Asia/Kolkata"
+        data-textcolor="#470909" data-date="2023-09-30 15:36" data-background="#707070"
+        data-unitscolor="#2b0000">Countdown to Durga Puja 2023</a>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"
-    ></script>
-    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src="Assets/scripts/blog-modal.js"></script>
 
-  </body>
+    <div class="container d-flex justify-content-center align-items-center flex-column">
+
+      <div class="projcard-container">
+
+        <div class="projcard projcard-blue">
+          <div class="projcard-innerbox">
+            <img class="projcard-img" src="./Assets/images/explore/photo-1616074385287-67f6fb9e9eb8.jfif" />
+            <div class="projcard-textbox">
+              <div class="projcard-title">Sreebhumi Durga Puja Pandal</div>
+              <div class="projcard-subtitle">Awarded with Biswa Bangla Sharad Samman</div>
+              <div class="projcard-bar"></div>
+              <div class="projcard-description">This year, the Shree Bhoomi Sporting Club, which is famous for its
+                elaborate and unique pandal, has based their theme on the Vatican City. For this, the club has created
+                its marquee as a replica of the Vatican City’s St Peters Basilica. The pictures and videos of the puja
+                pandal are being widely shared online.</div>
+              <button type="button" id="sreebhumi" class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="projcard projcard-red">
+          <div class="projcard-innerbox">
+            <img class="projcard-img" src="./Assets/images/explore/pexels-kolkatar-chobiwala-13005341.jpg" />
+            <div class="projcard-textbox">
+              <div class="projcard-title">Baghbazar Sarbojanin</div>
+              <div class="projcard-subtitle">Awarded with Biswa Bangla Sharad Samman</div>
+              <div class="projcard-bar"></div>
+              <div class="projcard-description">Baghbazar Sarbojanin’s historical background For almost a century, the
+                Durga Puja pandal has been an integral part of the development and history of Bengali culture. During
+                this lengthy and rich period of time, it has witnessed all the historical transformations and pivotal
+                moments. The largest crowds gather at Kolkata’s Bagbazar on the occasion of Durga Puja.</div>
+              <button type="button" id="bagbazar" class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="projcard projcard-green">
+          <div class="projcard-innerbox">
+            <img class="projcard-img" src="./Assets/images/explore/pexels-souvik-laha-5559377.jpg" />
+            <div class="projcard-textbox">
+              <div class="projcard-title">Santosh Mitra Square </div>
+              <div class="projcard-subtitle">Awarded with Biswa Bangla Sharad Samman</div>
+              <div class="projcard-bar"></div>
+              <div class="projcard-description"> One of Kolkata’s busiest Durga Puja pandals is Santosh Mitra Square.
+                Santosh Mitra Square has become a favorite among Puja goers in Kolkata year after year thanks to its
+                distinctively diversified themes. The stunning artwork is what made this Durga puja famous.</div>
+              <button type="button" id="smitra" class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="projcard projcard-customcolor" style="--projcard-color: #F5AF41;">
+          <div class="projcard-innerbox">
+            <img class="projcard-img" src="./Assets/images/explore/c3da6a12b998dde24a9c43a754647614.jpg" />
+            <div class="projcard-textbox">
+              <div class="projcard-title">Suruchi Sangha </div>
+              <div class="projcard-subtitle">Awarded with Asian Prints Sharad Samman.</div>
+              <div class="projcard-bar"></div>
+              <div class="projcard-description">This organization is renowned for the original themes that it develops
+                each year. In 2010, the pandal even took home the award for artistic brilliance. It is one among the
+                pandals in Kolkata that receives the most visits each year.</div>
+              <button type="button" id="suruchi" class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+  </section>
+  <div class="modal_containers">
+    <div class="modal-overlay modal-hide">
+
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="Assets/scripts/blog-modal.js"></script>
+
+</body>
+
 </html>
