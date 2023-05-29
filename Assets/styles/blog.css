@@ -430,3 +430,79 @@ html {
   font-size: 2rem;
   cursor: pointer;
 }
+
+/* Footer */
+.footer_content {
+  background-image: linear-gradient(to top, #ffec9f, #fffffffe);
+  border-radius: 30px 30px 0px 0px;
+  border-left: 5px dotted red;
+  border-top: 5px dotted red;
+  border-right: 5px dotted red;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  flex-direction: column;
+  bottom: auto;
+  width: 100%;
+  height: 21vh;
+  gap: 2rem;
+}
+
+.footer_head {
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 40%;
+  top: 10%;
+}
+
+.footer_desc {
+  top: 80%;
+  margin-top: 10px;
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 20%;
+  font-size: larger;
+}
+
+.footer_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 40%;
+}
+
+.footer_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  top: 20%;
+}
+
+.footer_copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 80%;
+  text-align: center;
+  width: 100%;
+}
+.footer_copy p {
+  margin: 0;
+}
