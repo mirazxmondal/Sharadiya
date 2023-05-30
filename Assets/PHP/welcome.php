@@ -3,7 +3,6 @@ require 'connect.php';
 require 'connect-session.php';
 
 ?>
-<!-- <h1><?php echo ($_SESSION["FIEM"]["name"]); ?></h1> -->
 
 <html>
 
@@ -48,11 +47,14 @@ require 'connect-session.php';
   </nav>
 
   <!-- Main -->
+  <h3>নমস্কার, <?php echo ($_SESSION["FIEM"]["name"]); ?></h3>
   <Main>
-    <a href="./upload-page.php">
-      <button id="bottone1"><strong>Publish Content</strong></button></a>
-    <a href="./services-page.php">
-      <button id="bottone1"><strong>Publish Position</strong></button></a>
+    <div class="main-container">
+      <a href="./upload-page.php">
+        <button id="bottone1"><strong>Publish Content</strong></button></a>
+      <a href="./services-page.php">
+        <button id="bottone1"><strong>Publish Position</strong></button></a>
+    </div>
   </Main>
 
   <script src=".././scripts/./main.js"></script>
