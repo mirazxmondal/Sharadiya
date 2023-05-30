@@ -39,6 +39,21 @@ body {
   margin-bottom: 30px;
 }
 
+input[type="file"]::file-selector-button {
+  border: none;
+  background: #e99350;
+  padding: 6px 15px;
+  margin-right: 10px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background: #fe796b;
+}
+
 form {
   margin-left: 80px;
 }

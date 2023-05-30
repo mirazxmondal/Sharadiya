@@ -3,7 +3,6 @@ require 'connect.php';
 require 'connect-session.php';
 
 ?>
-<!-- <h1><?php echo ($_SESSION["FIEM"]["name"]); ?></h1> -->
 
 <html>
 
@@ -63,8 +62,8 @@ require 'connect-session.php';
 
                 <label for="name" class="dec">Description:</label>
                 <input type="text" id="description" name="description" placeholder="Description" style="height: 150px;" required><br><br>
-                <label for="name">Thumbnail:</label>
-                <input type="file" id="" name="thumbnail" required><br><br>
+                <label for="name" class="thumbnail">Thumbnail:</label>
+                <input type="file" id="file" class="inputfile" name="thumbnail" required><br><br>
                 <p>(Upload 350px X 350px)</p>
 
                 <!-- <label for="name">Upload a video:</label>
