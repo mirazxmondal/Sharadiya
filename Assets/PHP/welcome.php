@@ -50,10 +50,20 @@ require 'connect-session.php';
   <h3>নমস্কার, <?php echo ($_SESSION["FIEM"]["name"]); ?></h3>
   <Main>
     <div class="main-container">
-      <a href="./upload-page.php">
-        <button id="bottone1"><strong>Publish Content</strong></button></a>
-      <a href="./services-page.php">
-        <button id="bottone1"><strong>Publish Position</strong></button></a>
+      <div class="upload">
+        <img src="../images/welcome-page/upload.png" alt="upload" id="thumbnail">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ea eaque, minus dicta quasi nesciunt perferendis consequatur consectetur recusandae eveniet mollitia soluta suscipit repellat ut deleniti similique cumque! Ducimus, a.</p>
+        <a href="./upload-page.php">
+          <button id="bottone1"><strong>Publish Content</strong></button>
+        </a>
+      </div>
+      <div class="jobs">
+        <img src="../images/welcome-page/job.png" alt="upload" id="thumbnail">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ea eaque, minus dicta quasi nesciunt perferendis consequatur consectetur recusandae eveniet mollitia soluta suscipit repellat ut deleniti similique cumque! Ducimus, a.</p>
+        <a href="./services-page.php">
+          <button id="bottone1"><strong>Publish Position</strong></button>
+        </a>
+      </div>
     </div>
   </Main>
 
