@@ -20,8 +20,9 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
+
+## Table of Contents
+
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -41,7 +42,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
     <li><a href="#license">License</a></li>
   </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 
@@ -95,6 +95,7 @@ A hevay backend with a simple UI made with the help of Bootstrap and CSS.
 - Link CSS and JS files
 - Install XAMPP
 - Clone the repo inside XAMPP folder to run it on XAMPP localhost
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Prerequisites
 
@@ -156,100 +157,99 @@ Don't forget to give the project a star! Thanks again!
 
 ## Folder Structure
 
-- **C:\\xampp\\htdocs\\ard\\Sharadiya**
-  - **Admin\-panel**
-    - **Assets**
-      - **PHP**
-        - [admin\-connection.php](Admin-panel/Assets/PHP/admin-connection.php)
-        - [connect.php](Admin-panel/Assets/PHP/connect.php)
-        - [connect1.php](Admin-panel/Assets/PHP/connect1.php)
-        - [login.php](Admin-panel/Assets/PHP/login.php)
-        - [logout.php](Admin-panel/Assets/PHP/logout.php)
-        - [session\-check.php](Admin-panel/Assets/PHP/session-check.php)
-        - [welcome.php](Admin-panel/Assets/PHP/welcome.php)
-      - **styles**
-        - [index.css](Admin-panel/Assets/styles/index.css)
-        - [register.css](Admin-panel/Assets/styles/register.css)
-    - [index.html](Admin-panel/index.html)
+- **Admin\-panel**
   - **Assets**
     - **PHP**
-      - [CTA\-explore.php](Assets/PHP/CTA-explore.php)
-      - [admin\-DB\-connection.php](Assets/PHP/admin-DB-connection.php)
-      - [admin\-confirmation.html](Assets/PHP/admin-confirmation.html)
-      - [admin.php](Assets/PHP/admin.php)
-      - [connect\-session.php](Assets/PHP/connect-session.php)
-      - [connect.php](Assets/PHP/connect.php)
-      - [login.php](Assets/PHP/login.php)
-      - [logout.php](Assets/PHP/logout.php)
-      - [main\-services.php](Assets/PHP/main-services.php)
-      - [register.php](Assets/PHP/register.php)
-      - [registration\-successful.html](Assets/PHP/registration-successful.html)
-      - [service\-registration\-successful.html](Assets/PHP/service-registration-successful.html)
-      - [services.php](Assets/PHP/services.php)
-      - [session\-check.php](Assets/PHP/session-check.php)
-      - [view.php](Assets/PHP/view.php)
-      - [welcome.php](Assets/PHP/welcome.php)
-    - **audio**
-      - [dhak.mp3](Assets/audio/dhak.mp3)
-    - **images**
-      - [about.jpg](Assets/images/about.jpg)
-      - [about1.jpg](Assets/images/about1.jpg)
-      - [about2.jpg](Assets/images/about2.jpg)
-      - [b1.jpg](Assets/images/b1.jpg)
-      - [button\-back.png](Assets/images/button-back.png)
-      - [cross.gif](Assets/images/cross.gif)
-      - **explore**
-        - [1603396521_tsp\-2\-suruchi\-sangha2.jpg](Assets/images/explore/1603396521_tsp-2-suruchi-sangha2.jpg)
-        - [Fd6NzhPUcAEy\-ee.jpg](Assets/images/explore/Fd6NzhPUcAEy-ee.jpg)
-        - [Suruchi_Sangha_Durga_Puja_2019.jpg](Assets/images/explore/Suruchi_Sangha_Durga_Puja_2019.jpg)
-        - [aPTmii.webp](Assets/images/explore/aPTmii.webp)
-        - [c3da6a12b998dde24a9c43a754647614.jpg](Assets/images/explore/c3da6a12b998dde24a9c43a754647614.jpg)
-        - [pexels\-kolkatar\-chobiwala\-13005341.jpg](Assets/images/explore/pexels-kolkatar-chobiwala-13005341.jpg)
-        - [pexels\-soumya\-bhattacharjee\-9938556.jpg](Assets/images/explore/pexels-soumya-bhattacharjee-9938556.jpg)
-        - [pexels\-souvik\-laha\-5559377.jpg](Assets/images/explore/pexels-souvik-laha-5559377.jpg)
-        - [pexels\-subhajit\-biswas\-13927172.jpg](Assets/images/explore/pexels-subhajit-biswas-13927172.jpg)
-        - [pexels\-subhasish\-baidya\-7035900.jpg](Assets/images/explore/pexels-subhasish-baidya-7035900.jpg)
-        - [photo\-1616074385287\-67f6fb9e9eb8.jfif](Assets/images/explore/photo-1616074385287-67f6fb9e9eb8.jfif)
-        - [sontoshm.jpg](Assets/images/explore/sontoshm.jpg)
-      - [favicon.png](Assets/images/favicon.png)
-      - [feature.jpg](Assets/images/feature.jpg)
-      - [footer.jpg](Assets/images/footer.jpg)
-      - [footer1.jpg](Assets/images/footer1.jpg)
-      - [register.jpg](Assets/images/register.jpg)
-      - [register1.jpg](Assets/images/register1.jpg)
-      - [silde1.jpg](Assets/images/silde1.jpg)
-      - [silde2.jpg](Assets/images/silde2.jpg)
-      - [slide3.jpg](Assets/images/slide3.jpg)
-      - [sree1.jpg](Assets/images/sree1.jpg)
-      - [thankyou.gif](Assets/images/thankyou.gif)
-      - [updated\-footer.png](Assets/images/updated-footer.png)
-    - **scripts**
-      - [CTA.js](Assets/scripts/CTA.js)
-      - [about.js](Assets/scripts/about.js)
-      - [blog\-modal.js](Assets/scripts/blog-modal.js)
-      - [main.js](Assets/scripts/main.js)
-      - [register.js](Assets/scripts/register.js)
-      - [script.js](Assets/scripts/script.js)
+      - [admin\-connection.php](Admin-panel/Assets/PHP/admin-connection.php)
+      - [connect.php](Admin-panel/Assets/PHP/connect.php)
+      - [connect1.php](Admin-panel/Assets/PHP/connect1.php)
+      - [login.php](Admin-panel/Assets/PHP/login.php)
+      - [logout.php](Admin-panel/Assets/PHP/logout.php)
+      - [session\-check.php](Admin-panel/Assets/PHP/session-check.php)
+      - [welcome.php](Admin-panel/Assets/PHP/welcome.php)
     - **styles**
-      - [CTA.css](Assets/styles/CTA.css)
-      - [about.css](Assets/styles/about.css)
-      - [register.css](Assets/styles/register.css)
-      - [style.css](Assets/styles/style.css)
-      - [style2.css](Assets/styles/style2.css)
-      - [welcome\-php.css](Assets/styles/welcome-php.css)
-  - **DB**
-    - [admin.sql](DB/admin.sql)
-    - [service.sql](DB/service.sql)
-    - [sharadiya.sql](DB/sharadiya.sql)
-  - [README.md](README.md)
-  - **Upload**
-  - [about.html](about.html)
-  - [blog.html](blog.html)
-  - [explore.html](explore.html)
-  - [index.html](index.html)
-  - [license](license)
-  - [register.html](register.html)
-  - [services.html](services.html)
+      - [index.css](Admin-panel/Assets/styles/index.css)
+      - [register.css](Admin-panel/Assets/styles/register.css)
+  - [index.html](Admin-panel/index.html)
+- **Assets**
+  - **PHP**
+    - [CTA\-explore.php](Assets/PHP/CTA-explore.php)
+    - [admin\-DB\-connection.php](Assets/PHP/admin-DB-connection.php)
+    - [admin\-confirmation.html](Assets/PHP/admin-confirmation.html)
+    - [admin.php](Assets/PHP/admin.php)
+    - [connect\-session.php](Assets/PHP/connect-session.php)
+    - [connect.php](Assets/PHP/connect.php)
+    - [login.php](Assets/PHP/login.php)
+    - [logout.php](Assets/PHP/logout.php)
+    - [main\-services.php](Assets/PHP/main-services.php)
+    - [register.php](Assets/PHP/register.php)
+    - [registration\-successful.html](Assets/PHP/registration-successful.html)
+    - [service\-registration\-successful.html](Assets/PHP/service-registration-successful.html)
+    - [services.php](Assets/PHP/services.php)
+    - [session\-check.php](Assets/PHP/session-check.php)
+    - [view.php](Assets/PHP/view.php)
+    - [welcome.php](Assets/PHP/welcome.php)
+  - **audio**
+    - [dhak.mp3](Assets/audio/dhak.mp3)
+  - **images**
+    - [about.jpg](Assets/images/about.jpg)
+    - [about1.jpg](Assets/images/about1.jpg)
+    - [about2.jpg](Assets/images/about2.jpg)
+    - [b1.jpg](Assets/images/b1.jpg)
+    - [button\-back.png](Assets/images/button-back.png)
+    - [cross.gif](Assets/images/cross.gif)
+    - **explore**
+      - [1603396521_tsp\-2\-suruchi\-sangha2.jpg](Assets/images/explore/1603396521_tsp-2-suruchi-sangha2.jpg)
+      - [Fd6NzhPUcAEy\-ee.jpg](Assets/images/explore/Fd6NzhPUcAEy-ee.jpg)
+      - [Suruchi_Sangha_Durga_Puja_2019.jpg](Assets/images/explore/Suruchi_Sangha_Durga_Puja_2019.jpg)
+      - [aPTmii.webp](Assets/images/explore/aPTmii.webp)
+      - [c3da6a12b998dde24a9c43a754647614.jpg](Assets/images/explore/c3da6a12b998dde24a9c43a754647614.jpg)
+      - [pexels\-kolkatar\-chobiwala\-13005341.jpg](Assets/images/explore/pexels-kolkatar-chobiwala-13005341.jpg)
+      - [pexels\-soumya\-bhattacharjee\-9938556.jpg](Assets/images/explore/pexels-soumya-bhattacharjee-9938556.jpg)
+      - [pexels\-souvik\-laha\-5559377.jpg](Assets/images/explore/pexels-souvik-laha-5559377.jpg)
+      - [pexels\-subhajit\-biswas\-13927172.jpg](Assets/images/explore/pexels-subhajit-biswas-13927172.jpg)
+      - [pexels\-subhasish\-baidya\-7035900.jpg](Assets/images/explore/pexels-subhasish-baidya-7035900.jpg)
+      - [photo\-1616074385287\-67f6fb9e9eb8.jfif](Assets/images/explore/photo-1616074385287-67f6fb9e9eb8.jfif)
+      - [sontoshm.jpg](Assets/images/explore/sontoshm.jpg)
+    - [favicon.png](Assets/images/favicon.png)
+    - [feature.jpg](Assets/images/feature.jpg)
+    - [footer.jpg](Assets/images/footer.jpg)
+    - [footer1.jpg](Assets/images/footer1.jpg)
+    - [register.jpg](Assets/images/register.jpg)
+    - [register1.jpg](Assets/images/register1.jpg)
+    - [silde1.jpg](Assets/images/silde1.jpg)
+    - [silde2.jpg](Assets/images/silde2.jpg)
+    - [slide3.jpg](Assets/images/slide3.jpg)
+    - [sree1.jpg](Assets/images/sree1.jpg)
+    - [thankyou.gif](Assets/images/thankyou.gif)
+    - [updated\-footer.png](Assets/images/updated-footer.png)
+  - **scripts**
+    - [CTA.js](Assets/scripts/CTA.js)
+    - [about.js](Assets/scripts/about.js)
+    - [blog\-modal.js](Assets/scripts/blog-modal.js)
+    - [main.js](Assets/scripts/main.js)
+    - [register.js](Assets/scripts/register.js)
+    - [script.js](Assets/scripts/script.js)
+  - **styles**
+    - [CTA.css](Assets/styles/CTA.css)
+    - [about.css](Assets/styles/about.css)
+    - [register.css](Assets/styles/register.css)
+    - [style.css](Assets/styles/style.css)
+    - [style2.css](Assets/styles/style2.css)
+    - [welcome\-php.css](Assets/styles/welcome-php.css)
+- **DB**
+  - [admin.sql](DB/admin.sql)
+  - [service.sql](DB/service.sql)
+  - [sharadiya.sql](DB/sharadiya.sql)
+- [README.md](README.md)
+- **Upload**
+- [about.html](about.html)
+- [blog.html](blog.html)
+- [explore.html](explore.html)
+- [index.html](index.html)
+- [license](license)
+- [register.html](register.html)
+- [services.html](services.html)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
