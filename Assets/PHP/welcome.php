@@ -52,14 +52,14 @@ require 'connect-session.php';
     <div class="main-container">
       <div class="upload">
         <img src="../images/welcome-page/upload.png" alt="upload" id="thumbnail">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ea eaque, minus dicta quasi nesciunt perferendis consequatur consectetur recusandae eveniet mollitia soluta suscipit repellat ut deleniti similique cumque! Ducimus, a.</p>
+        <p>Check out our latest content upload! Dive into a world of knowledge, entertainment, and inspiration. From informative articles to captivating videos, there's something for everyone. Don't miss out on this enriching experience. Explore, learn, and be inspired today!</p>
         <a href="./upload-page.php">
           <button id="bottone1"><strong>Publish Content</strong></button>
         </a>
       </div>
       <div class="jobs">
         <img src="../images/welcome-page/job.png" alt="upload" id="thumbnail">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ea eaque, minus dicta quasi nesciunt perferendis consequatur consectetur recusandae eveniet mollitia soluta suscipit repellat ut deleniti similique cumque! Ducimus, a.</p>
+        <p>If your are someone looking for exceptional talent to join your team. If you're passionate about making a difference and thrive in a fast-paced environment. Publish and embark on an exciting journey where an individual can make a meaningful impact. Publish today!</p>
         <a href="./services-page.php">
           <button id="bottone1"><strong>Publish Position</strong></button>
         </a>
