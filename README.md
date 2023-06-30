@@ -25,9 +25,10 @@
 
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#sharadiya">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#key-points">Key Points</a></li>
       </ul>
     </li>
     <li>
@@ -45,21 +46,13 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## Previews of the project
+## Sharadiya
+
+Sharadiya is a wholesome website for festive season currently it is on Durga Puja mainly designed for specially abled people who are unable to come to pandels, it is designed for them to get the full experience of the festive season. Also to the people who are unable to come to their hometown for festive season, Sharadiya is designed for them <3
 
 ![Project01](https://i.postimg.cc/ZRqPF5P6/landing.png)
 
-[![Screenshot-141.png](https://i.postimg.cc/8cyFmpPW/Screenshot-141.png)](https://postimg.cc/7J2YxyzY)
-
-![previws](https://i.postimg.cc/vH1MBJjB/landing-3rd.png)
-
-![previws](https://i.postimg.cc/bvPjmsvD/footer.png)
-
-<h4>
-Sharadiya is a wholesome website for festive season currently it is on Durga Puja mainly designed for specially abled people who are unable to come to pandels, it is designed for them to get the full experience of the festive season. Also to the people who are unable to come to their hometown for festive season, Sharadiya is designed for them <3
-</h4>
-
-Key points :
+## Key Points
 
 - This was a college project but now it is being open sourced, feel free to contribute!
 - It helps to understand about the fundamentals of PHP and environment of a Full Stack Website. And the use of javascript and logic building to perform user interaction on web page.
@@ -70,7 +63,7 @@ Key points :
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Built With
+## Built With
 
 A hevay backend with a simple UI made with the help of Bootstrap and CSS.
 
